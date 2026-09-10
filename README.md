@@ -8,6 +8,9 @@ what the score adds up to, who ranks where) is plain deterministic Python. The o
 `results.json`, a self-contained `results.html`, and a table printed straight to the
 terminal.
 
+**[View the live results report →](https://sharvary-hh.github.io/ResumeScreening_kasparro/output/results.html)**
+— the real output of a 50-resume run, no setup required.
+
 ---
 
 ## Setup
@@ -111,7 +114,7 @@ every run.
 | | |
 |---|---|
 | Terminal | printed automatically at the end of every run |
-| HTML | `open output/results.html` (macOS) or `xdg-open output/results.html` (Linux) |
+| HTML | [live on GitHub Pages](https://sharvary-hh.github.io/ResumeScreening_kasparro/output/results.html), or `open output/results.html` (macOS) / `xdg-open` (Linux) |
 | JSON | `python -m json.tool output/results.json \| less` |
 
 ### All flags
@@ -374,7 +377,9 @@ that:
 3. **A missing key fails with a sentence, not a traceback:** `LLM_API_KEY not set. Run
    with --offline to replay cached results, or see README setup.`
 4. **`output/results.json` and `output/results.html` are committed**, so the real output
-   can be inspected without running anything at all.
+   can be inspected without running anything at all — and the HTML report is
+   [published on GitHub Pages](https://sharvary-hh.github.io/ResumeScreening_kasparro/output/results.html)
+   so it can be read in a browser without even cloning.
 
 ### The HTML report
 
