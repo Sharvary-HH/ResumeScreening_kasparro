@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 4
+  },
+  "repos": [
+    {
+      "name": "template-store",
+      "description": null,
+      "language": "JavaScript",
+      "fork": true,
+      "pushed_at": "2024-10-28T14:23:48Z",
+      "updated_at": "2024-10-27T14:43:31Z",
+      "topics": []
+    },
+    {
+      "name": "my-app",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-07-16T16:57:36Z",
+      "updated_at": "2024-07-16T16:57:40Z",
+      "topics": []
+    },
+    {
+      "name": "horosocpe",
+      "description": null,
+      "language": "Handlebars",
+      "fork": false,
+      "pushed_at": "2024-07-01T14:29:22Z",
+      "updated_at": "2024-07-01T14:29:25Z",
+      "topics": []
+    },
+    {
+      "name": "Horoscope",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-07-01T12:32:31Z",
+      "updated_at": "2024-07-01T08:52:44Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

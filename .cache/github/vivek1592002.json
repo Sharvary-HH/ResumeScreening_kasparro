@@ -1,0 +1,147 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 15
+  },
+  "repos": [
+    {
+      "name": "ragSystem",
+      "description": null,
+      "language": "Go",
+      "fork": false,
+      "pushed_at": "2026-08-14T10:38:32Z",
+      "updated_at": "2026-08-14T10:38:51Z",
+      "topics": []
+    },
+    {
+      "name": "finalYearProject",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2025-05-10T04:27:18Z",
+      "updated_at": "2025-05-10T04:27:21Z",
+      "topics": []
+    },
+    {
+      "name": "emotifyfrontend",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-05-07T12:12:03Z",
+      "updated_at": "2025-05-07T12:12:07Z",
+      "topics": []
+    },
+    {
+      "name": "quizzjs",
+      "description": "project",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-01-29T10:49:16Z",
+      "updated_at": "2025-01-29T10:49:20Z",
+      "topics": []
+    },
+    {
+      "name": "Shoppy",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-01-29T08:07:01Z",
+      "updated_at": "2025-01-29T08:07:04Z",
+      "topics": []
+    },
+    {
+      "name": "chatappfrontend",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-11-05T05:09:57Z",
+      "updated_at": "2024-11-05T05:10:00Z",
+      "topics": []
+    },
+    {
+      "name": "chatappbackend",
+      "description": "or /admin bhi krr sakte hai id ",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-11-04T14:53:08Z",
+      "updated_at": "2024-11-04T15:02:24Z",
+      "topics": []
+    },
+    {
+      "name": "djangotweetsapp",
+      "description": "This project is a simple Twitter-like web application built using Django. Users can:  Register and log in as different users. Post tweets that will be displayed on the main timeline. Delete their own tweets when needed. View tweets from other users, creating an interactive timeline.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-10-04T05:06:20Z",
+      "updated_at": "2024-10-04T05:06:23Z",
+      "topics": []
+    },
+    {
+      "name": "aurigadjangoreact",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-09-03T04:58:51Z",
+      "updated_at": "2024-09-03T04:58:53Z",
+      "topics": []
+    },
+    {
+      "name": "argon-react-native",
+      "description": "Argon React Native ",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-03-19T05:52:54Z",
+      "updated_at": "2024-07-10T10:42:04Z",
+      "topics": []
+    },
+    {
+      "name": "FridayAi",
+      "description": "a ai personal assitant",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-05-10T06:43:50Z",
+      "updated_at": "2024-05-10T06:43:56Z",
+      "topics": []
+    },
+    {
+      "name": "forage-jpmc-swe-task-2",
+      "description": "Starter repo for task 2 of JPMC's forage program",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2023-09-16T15:32:39Z",
+      "updated_at": "2023-09-18T15:53:54Z",
+      "topics": []
+    },
+    {
+      "name": "forage-jpmc-swe-task-1",
+      "description": "Starter repo for task 1 of the JPMC software engineering program",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2023-09-07T23:07:34Z",
+      "updated_at": "2023-09-08T22:43:40Z",
+      "topics": []
+    },
+    {
+      "name": "white-coders-ru",
+      "description": "A wesbsite which confirms best utilization of  food and reduces chances of its wastage with good management.Although quality of food define its sells and utilization but mapping its distribution and taking best ways  of providing food to the needers.",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2023-03-21T03:47:13Z",
+      "updated_at": "2023-03-21T03:47:13Z",
+      "topics": []
+    },
+    {
+      "name": "Vivek1592002",
+      "description": "Config files for my GitHub profile.",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-01-14T14:28:31Z",
+      "updated_at": "2022-09-13T12:34:55Z",
+      "topics": [
+        "config",
+        "github-config"
+      ]
+    }
+  ],
+  "events": []
+}

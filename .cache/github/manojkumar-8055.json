@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 1
+  },
+  "repos": [
+    {
+      "name": "Computerized-Cognitive-Retraining-Program-for-Home-Training-of-Children-with-Disabilities",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-12-04T09:07:43Z",
+      "updated_at": "2025-12-04T09:07:47Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,90 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 9
+  },
+  "repos": [
+    {
+      "name": "AI-First-CRM-HCP-Module",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-07-15T07:29:58Z",
+      "updated_at": "2026-07-15T07:30:02Z",
+      "topics": []
+    },
+    {
+      "name": "reimbursement-agent",
+      "description": "AI-powered travel reimbursement approval agent built with LangGraph, Groq (Llama 3.3), ChromaDB, and FastAPI. Evaluates employee claims against company policy using RAG + agentic tool calling.",
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2026-07-01T18:07:27Z",
+      "updated_at": "2026-07-01T18:07:34Z",
+      "topics": []
+    },
+    {
+      "name": "job-search-assistance",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-06-05T16:14:58Z",
+      "updated_at": "2026-06-05T16:15:02Z",
+      "topics": []
+    },
+    {
+      "name": "Job-Application-Tracker",
+      "description": "The Job Application Tracker is a platform designed to help job seekers organize and track their job applications. This application provides a comprehensive suite of features to manage the job search process efficiently, including logging job applications, setting reminders, storing company information, and visualizing application progress.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-07-27T08:30:43Z",
+      "updated_at": "2024-07-27T08:30:46Z",
+      "topics": []
+    },
+    {
+      "name": "Chat-App",
+      "description": "Designed and developed a group chat application using Node.js and Express.js,  integrating real-time messaging capabilities with Socket.IO for instant communication. Designed for scalability and maintainability, ensuring smooth operation.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-07-12T21:46:12Z",
+      "updated_at": "2024-07-12T21:46:15Z",
+      "topics": []
+    },
+    {
+      "name": "Expense-Tracker",
+      "description": "This is a web application for tracking personal expenses. The application allows users to log their expenses, categorize them, and visualize their spending patterns over time.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-07-12T09:35:18Z",
+      "updated_at": "2024-07-12T09:35:22Z",
+      "topics": []
+    },
+    {
+      "name": "Vaccine-Finder",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-09-18T09:57:40Z",
+      "updated_at": "2023-09-18T09:57:43Z",
+      "topics": []
+    },
+    {
+      "name": "Trends",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-09-18T09:50:22Z",
+      "updated_at": "2023-09-18T09:50:25Z",
+      "topics": []
+    },
+    {
+      "name": "sports-club-website",
+      "description": null,
+      "language": "CSS",
+      "fork": false,
+      "pushed_at": "2023-05-28T06:25:40Z",
+      "updated_at": "2023-05-28T06:25:43Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,81 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 8
+  },
+  "repos": [
+    {
+      "name": "Cognitive-Resonance-AI",
+      "description": " The Cognitive Resonance AI Model is a Novel Approach using multimodal inputs. This project introduces innovative techniques to  dynamically quantify emotional uncertainty, align user states with goal states, and predict temporal emotional  changes in real time",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2025-10-26T10:33:07Z",
+      "updated_at": "2025-10-26T10:33:10Z",
+      "topics": []
+    },
+    {
+      "name": "Section-distribution",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2024-04-30T09:48:53Z",
+      "updated_at": "2024-09-18T07:42:55Z",
+      "topics": []
+    },
+    {
+      "name": "Questionsort",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2024-04-30T09:55:16Z",
+      "updated_at": "2024-04-30T09:55:19Z",
+      "topics": []
+    },
+    {
+      "name": "Python-patterns",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-04-30T09:53:48Z",
+      "updated_at": "2024-04-30T09:53:53Z",
+      "topics": []
+    },
+    {
+      "name": "VOICE-RECOGNITION",
+      "description": "This Python script creates a speech processing app using Tkinter for GUI, SpeechRecognition for speech input, and spaCy for NLP. It recognizes speech, generates responses based on input, and converts them to speech. Threading ensures responsiveness.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-04-30T09:46:01Z",
+      "updated_at": "2024-04-30T09:46:04Z",
+      "topics": []
+    },
+    {
+      "name": "Tic-tac-toe",
+      "description": "Tic-tac-toe gaming interface",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-04-29T15:52:24Z",
+      "updated_at": "2024-04-29T15:52:26Z",
+      "topics": []
+    },
+    {
+      "name": "EDA",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2024-04-29T04:57:59Z",
+      "updated_at": "2024-04-29T04:58:02Z",
+      "topics": []
+    },
+    {
+      "name": "LIBRARY-MANAGEMENT-SYSTEM",
+      "description": " The objective of the Library Management System project is to create a comprehensive software  solution for efficiently managing library operations. The system is designed to automate various  tasks involved in library management, including book cataloging, user management, transaction  tracking, and inventory management.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-04-29T04:47:17Z",
+      "updated_at": "2024-04-29T04:47:20Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

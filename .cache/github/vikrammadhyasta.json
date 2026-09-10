@@ -1,0 +1,205 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 19
+  },
+  "repos": [
+    {
+      "name": "cloud-devops-portfolio",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-09-07T07:11:43Z",
+      "updated_at": "2026-09-07T07:11:47Z",
+      "topics": []
+    },
+    {
+      "name": "vikrammadhyasta",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-08-05T18:05:46Z",
+      "updated_at": "2026-08-05T18:07:00Z",
+      "topics": []
+    },
+    {
+      "name": "smart-expense-tracker-api",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-01T08:00:34Z",
+      "updated_at": "2026-08-01T08:00:51Z",
+      "topics": []
+    },
+    {
+      "name": "free-llm-api-resources",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-07-14T03:24:15Z",
+      "updated_at": "2026-07-16T18:50:21Z",
+      "topics": []
+    },
+    {
+      "name": "awesome-claude-plugins",
+      "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-07-03T02:12:44Z",
+      "updated_at": "2026-07-11T00:05:31Z",
+      "topics": []
+    },
+    {
+      "name": "agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-07-07T00:59:41Z",
+      "updated_at": "2026-07-07T17:44:51Z",
+      "topics": []
+    },
+    {
+      "name": "awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-05-22T03:17:49Z",
+      "updated_at": "2026-07-07T16:50:16Z",
+      "topics": []
+    },
+    {
+      "name": "AgriTech",
+      "description": "Designed a cloud-native CI/CD and GitOps pipeline to build, containerize, and deploy applications to  Kubernetes, with an AI-based Jenkins analyzer to automatically detect pipeline failures and suggest fixes. ",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-06-22T16:58:35Z",
+      "updated_at": "2026-06-22T16:58:39Z",
+      "topics": []
+    },
+    {
+      "name": "ansible-jenkins-docker-ci-cd",
+      "description": "Automated Infrastructure & CI/CD using Ansible, Jenkins and Docker on AWS",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-12-31T10:24:44Z",
+      "updated_at": "2026-06-16T16:51:44Z",
+      "topics": []
+    },
+    {
+      "name": "cfa-lab-aws",
+      "description": "This Repo contains steps for execution ",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2026-05-11T05:44:37Z",
+      "updated_at": "2026-05-11T05:44:40Z",
+      "topics": []
+    },
+    {
+      "name": "incident-management-system",
+      "description": "Mission-critical Incident Management System \u2014 FastAPI \u00b7 PostgreSQL \u00b7 MongoDB \u00b7 Redis \u00b7 Reac",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-05-03T08:32:06Z",
+      "updated_at": "2026-05-03T08:32:10Z",
+      "topics": []
+    },
+    {
+      "name": "cloud-ml-agriculture-predictor",
+      "description": "Serverless ML prediction platform using AWS Lambda, API Gateway, and S3 ",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-12-30T16:18:39Z",
+      "updated_at": "2026-01-27T13:28:59Z",
+      "topics": []
+    },
+    {
+      "name": "terraform-aws-infra",
+      "description": "Production-grade AWS infrastructure automated with Terraform (IaC) and CI/CD using GitHub Actions.",
+      "language": "HCL",
+      "fork": false,
+      "pushed_at": "2025-12-31T10:22:34Z",
+      "updated_at": "2026-01-17T02:50:48Z",
+      "topics": []
+    },
+    {
+      "name": "spring-petclinic",
+      "description": "A sample Spring-based application",
+      "language": "CSS",
+      "fork": true,
+      "pushed_at": "2025-12-20T11:48:39Z",
+      "updated_at": "2025-12-28T18:50:39Z",
+      "topics": []
+    },
+    {
+      "name": "sample-static-node-express-web-application",
+      "description": "A sample static web application built using Node.js and Express Server",
+      "language": "JavaScript",
+      "fork": true,
+      "pushed_at": "2025-12-09T10:36:41Z",
+      "updated_at": "2025-12-09T10:36:45Z",
+      "topics": []
+    },
+    {
+      "name": "java-tomcat-maven-example",
+      "description": "Example Java + Maven Tomcat application",
+      "language": "Dockerfile",
+      "fork": true,
+      "pushed_at": "2025-11-05T09:00:54Z",
+      "updated_at": "2025-11-05T09:00:58Z",
+      "topics": []
+    },
+    {
+      "name": "basic-php-website",
+      "description": null,
+      "language": "PHP",
+      "fork": true,
+      "pushed_at": "2025-11-05T08:11:10Z",
+      "updated_at": "2025-11-05T08:11:14Z",
+      "topics": []
+    },
+    {
+      "name": "Cafe_Dynamic_Website",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2025-07-04T09:16:04Z",
+      "updated_at": "2025-09-13T06:05:50Z",
+      "topics": []
+    },
+    {
+      "name": "jenkins-multibranch-demo",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-08-17T05:29:58Z",
+      "updated_at": "2025-08-17T05:30:01Z",
+      "topics": []
+    }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-07T06:28:48Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-07T07:11:43Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-06T12:30:11Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-05T12:47:48Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-05T12:09:58Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-05T12:26:04Z"
+    }
+  ]
+}

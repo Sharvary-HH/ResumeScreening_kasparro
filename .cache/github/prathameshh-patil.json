@@ -1,0 +1,158 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 16
+  },
+  "repos": [
+    {
+      "name": "trading-intelligence",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-09-10T09:40:21Z",
+      "updated_at": "2026-09-10T09:40:32Z",
+      "topics": []
+    },
+    {
+      "name": "Intelligent-Loan-Document-Processing",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-07T09:18:03Z",
+      "updated_at": "2026-08-07T09:19:18Z",
+      "topics": []
+    },
+    {
+      "name": "ai-saas-kit",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-06-02T09:29:52Z",
+      "updated_at": "2026-06-02T09:29:56Z",
+      "topics": []
+    },
+    {
+      "name": "AdaptiveAgentic-RAG",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-05-17T20:03:58Z",
+      "updated_at": "2026-05-17T20:04:02Z",
+      "topics": []
+    },
+    {
+      "name": "Agent-Skill-Manager",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-04-17T19:46:50Z",
+      "updated_at": "2026-04-17T19:46:54Z",
+      "topics": []
+    },
+    {
+      "name": "mindmorph",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-04-16T07:05:53Z",
+      "updated_at": "2026-04-16T07:05:57Z",
+      "topics": []
+    },
+    {
+      "name": "Made-With-ML",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-02-20T05:51:58Z",
+      "updated_at": "2026-02-20T05:52:03Z",
+      "topics": []
+    },
+    {
+      "name": "Disease-detection-dashboard",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-02-16T13:45:11Z",
+      "updated_at": "2026-02-16T13:45:15Z",
+      "topics": []
+    },
+    {
+      "name": "AI-med-bot",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-02-16T11:37:23Z",
+      "updated_at": "2026-02-16T11:37:55Z",
+      "topics": []
+    },
+    {
+      "name": "GazeDetectionWebcam",
+      "description": "This is a Python 3 library that provides a webcam-based eye tracking system. It gives you the  position of the pupils and the gaze direction, in real time.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-12-28T10:46:00Z",
+      "updated_at": "2026-02-10T11:16:18Z",
+      "topics": []
+    },
+    {
+      "name": "agent-ui",
+      "description": "A modern chat interface for AI agents built with Next.js, Tailwind CSS, and TypeScript. ",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-02-01T14:56:56Z",
+      "updated_at": "2026-02-03T05:32:01Z",
+      "topics": []
+    },
+    {
+      "name": "Ai-Astro",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-08-19T08:36:32Z",
+      "updated_at": "2025-08-19T08:36:32Z",
+      "topics": []
+    },
+    {
+      "name": "Multiple-disease-prediction-system",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-06-01T19:53:44Z",
+      "updated_at": "2025-06-01T19:53:48Z",
+      "topics": []
+    },
+    {
+      "name": "Disease_recomendations",
+      "description": "This repositories helps us to know how machine learning is used to determine disease and we can use the softwares like streamlit in order to present the machine learning model",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-04-16T09:33:20Z",
+      "updated_at": "2025-04-16T09:33:24Z",
+      "topics": []
+    },
+    {
+      "name": "ChronicOP.github.io",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2025-03-29T08:35:18Z",
+      "updated_at": "2025-03-29T08:35:21Z",
+      "topics": []
+    },
+    {
+      "name": "Oral-Disease-Classification-using-Deep-Learning",
+      "description": "This repository provides a deep learning solution for classifying oral diseases from images. It uses a pre-trained ResNet-18 model to classify conditions like healthy, dental caries, and gingivitis. The project handles variations in image quality, lighting, and orientation, ensuring robust performance across diverse demographics.",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-12-23T20:04:30Z",
+      "updated_at": "2024-12-23T20:04:33Z",
+      "topics": []
+    }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-09T20:08:12Z"
+    }
+  ]
+}

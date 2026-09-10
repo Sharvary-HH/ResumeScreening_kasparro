@@ -1,0 +1,90 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 9
+  },
+  "repos": [
+    {
+      "name": "SmartATS",
+      "description": "AI-powered resume optimization platform. Upload a resume and a job description to get an ATS compatibility score, a keyword match heatmap, prioritized improvement suggestions, one-click resume tailoring, and a matching cover letter.",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-08-02T07:15:28Z",
+      "updated_at": "2026-08-02T07:16:42Z",
+      "topics": []
+    },
+    {
+      "name": "SmartATS-Foundation",
+      "description": "An AI-powered Resume and Job Description Matcher built with Streamlit and Python. This tool analyzes resumes against job descriptions, computes a matching score, and provides smart feedback using language models. Designed to help job seekers and recruiters improve alignment and save time.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-02-26T06:07:47Z",
+      "updated_at": "2026-08-02T06:19:56Z",
+      "topics": []
+    },
+    {
+      "name": "QuickText",
+      "description": "Full-stack SaaS app (React, FastAPI, Gemini) that turns uploaded documents into structured AI insights: summaries, flashcards, quizzes, and action items in seconds.",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-07-25T18:06:03Z",
+      "updated_at": "2026-07-25T18:06:07Z",
+      "topics": []
+    },
+    {
+      "name": "InStocks",
+      "description": "A minimalist, full-stack inventory tracker built with React, FastAPI, and PostgreSQL. It features a highly condensed, easy-to-read codebase designed specifically for learning and clarity.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-07-25T05:46:33Z",
+      "updated_at": "2026-07-25T05:46:38Z",
+      "topics": []
+    },
+    {
+      "name": "atulkumar2025",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-07-19T17:40:51Z",
+      "updated_at": "2026-07-19T17:40:58Z",
+      "topics": []
+    },
+    {
+      "name": "portfolio",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-07-16T12:37:02Z",
+      "updated_at": "2026-07-16T12:43:37Z",
+      "topics": []
+    },
+    {
+      "name": "House-Price-Prediction",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-05-03T07:07:03Z",
+      "updated_at": "2026-05-03T07:08:07Z",
+      "topics": []
+    },
+    {
+      "name": "Question-Paper-Generator",
+      "description": "AI-powered web app that instantly generates meticulously formatted, bilingual (English/Hindi) question papers and answer keys (.docx) from uploaded PDFs using Groq & Streamlit.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-03-23T07:02:30Z",
+      "updated_at": "2026-03-23T07:02:34Z",
+      "topics": []
+    },
+    {
+      "name": "Gemini-Chatbot",
+      "description": "The Gemini AI Chatbot is an interactive chatbot powered by Google's Gemini 2.0 Pro API, built with Streamlit in Python.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-03-12T16:27:14Z",
+      "updated_at": "2025-03-12T16:27:17Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,257 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 27
+  },
+  "repos": [
+    {
+      "name": "study-assistant",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-09-10T06:16:51Z",
+      "updated_at": "2026-09-10T06:16:56Z",
+      "topics": []
+    },
+    {
+      "name": "technical-assignment",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-29T06:28:11Z",
+      "updated_at": "2026-08-29T06:30:45Z",
+      "topics": []
+    },
+    {
+      "name": "MechAI",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-08-10T04:51:27Z",
+      "updated_at": "2026-08-10T04:52:44Z",
+      "topics": []
+    },
+    {
+      "name": "Digital-Footprint-Risk-Analyzer",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-03-29T10:40:40Z",
+      "updated_at": "2026-03-29T10:43:21Z",
+      "topics": []
+    },
+    {
+      "name": "SmartCRM",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-03-29T10:34:16Z",
+      "updated_at": "2026-03-29T10:34:19Z",
+      "topics": []
+    },
+    {
+      "name": "PCOS",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-02-16T06:58:53Z",
+      "updated_at": "2026-02-16T06:58:57Z",
+      "topics": []
+    },
+    {
+      "name": "speech-to-text",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2025-10-10T07:31:22Z",
+      "updated_at": "2025-10-10T07:31:25Z",
+      "topics": []
+    },
+    {
+      "name": "sumaiya226",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-08-28T09:09:51Z",
+      "updated_at": "2025-08-28T09:09:55Z",
+      "topics": []
+    },
+    {
+      "name": "crowdwisdomtrading_ai_agent",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-08-26T12:12:32Z",
+      "updated_at": "2025-08-26T12:12:36Z",
+      "topics": []
+    },
+    {
+      "name": "eventforge",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-08-25T15:10:34Z",
+      "updated_at": "2025-08-25T15:10:39Z",
+      "topics": []
+    },
+    {
+      "name": "scrapper",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-08-25T06:19:36Z",
+      "updated_at": "2025-08-25T06:19:39Z",
+      "topics": []
+    },
+    {
+      "name": "job-portal",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-08-24T14:40:12Z",
+      "updated_at": "2025-08-24T14:40:15Z",
+      "topics": []
+    },
+    {
+      "name": "ds",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2025-08-24T09:57:31Z",
+      "updated_at": "2025-08-24T09:57:34Z",
+      "topics": []
+    },
+    {
+      "name": "binance-futures-bot",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-08-24T04:44:09Z",
+      "updated_at": "2025-08-24T04:44:12Z",
+      "topics": []
+    },
+    {
+      "name": "talentscout-hiring-assistant",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-08-22T06:53:29Z",
+      "updated_at": "2025-08-22T06:53:34Z",
+      "topics": []
+    },
+    {
+      "name": "learning-platform",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-08-07T11:57:23Z",
+      "updated_at": "2025-08-07T11:57:27Z",
+      "topics": []
+    },
+    {
+      "name": "-WealthWise-PersonalizedFinancialAdvisor-Planner",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2025-02-20T17:44:27Z",
+      "updated_at": "2025-02-20T17:44:32Z",
+      "topics": []
+    },
+    {
+      "name": "WealthWise-FinancialAdvisor",
+      "description": "Financial Advisor and Planner",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-02-20T17:19:17Z",
+      "updated_at": "2025-02-20T17:19:24Z",
+      "topics": []
+    },
+    {
+      "name": "Ichor",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2024-01-18T17:04:08Z",
+      "updated_at": "2025-02-20T15:53:23Z",
+      "topics": []
+    },
+    {
+      "name": "Event_Management",
+      "description": "Event Management Application",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-02-20T15:33:31Z",
+      "updated_at": "2025-02-20T15:33:36Z",
+      "topics": []
+    },
+    {
+      "name": "Admin",
+      "description": "Admin Dashboard",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-02-20T15:26:41Z",
+      "updated_at": "2025-02-20T15:25:39Z",
+      "topics": []
+    },
+    {
+      "name": "student_details",
+      "description": "A simple student details dashboard",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-02-20T15:11:02Z",
+      "updated_at": "2025-02-20T15:10:08Z",
+      "topics": []
+    },
+    {
+      "name": "FoodMunch",
+      "description": "A Food Web App",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-02-20T15:02:12Z",
+      "updated_at": "2025-02-20T15:00:49Z",
+      "topics": []
+    },
+    {
+      "name": "task_management",
+      "description": "A web application to manage tasks",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-02-20T14:57:28Z",
+      "updated_at": "2025-02-20T14:52:52Z",
+      "topics": []
+    },
+    {
+      "name": "FEWD_LAB",
+      "description": "Frontend lab exercises",
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2025-02-19T04:47:14Z",
+      "updated_at": "2025-02-19T04:47:18Z",
+      "topics": []
+    },
+    {
+      "name": "Smart_BasketBall_Scoreboard",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-11-17T13:10:47Z",
+      "updated_at": "2024-11-17T17:37:33Z",
+      "topics": []
+    },
+    {
+      "name": "headlinescraper",
+      "description": "it scraps the headlines of the provided news website",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-06-09T16:17:28Z",
+      "updated_at": "2024-06-09T16:17:31Z",
+      "topics": []
+    }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-29T06:28:12Z"
+    }
+  ]
+}

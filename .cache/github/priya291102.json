@@ -1,0 +1,63 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 6
+  },
+  "repos": [
+    {
+      "name": "dream-weaver-weddings-87",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-03-03T05:00:03Z",
+      "updated_at": "2026-03-03T05:00:08Z",
+      "topics": []
+    },
+    {
+      "name": "dream-wedding-planner",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-02-26T06:38:45Z",
+      "updated_at": "2026-02-26T06:39:57Z",
+      "topics": []
+    },
+    {
+      "name": "fashion-showcase-carousel",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-02-25T05:10:40Z",
+      "updated_at": "2026-02-25T12:04:42Z",
+      "topics": []
+    },
+    {
+      "name": "Prediction-Project",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-01-05T05:08:10Z",
+      "updated_at": "2026-01-05T05:08:10Z",
+      "topics": []
+    },
+    {
+      "name": "Improving-Accessibility-For-The-Blind-By-Developing-a-Helpful-Virtual-Assistant-For-Daily-Life",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-12-29T08:02:34Z",
+      "updated_at": "2025-12-29T08:02:37Z",
+      "topics": []
+    },
+    {
+      "name": "PROJECT",
+      "description": "This project focuses on predicting Air Quality Index (AQI) by utilizing machine learning techniques. By leveraging datasets containing PM2.5 and other air quality metrics, machine learning algorithms such as SVR, Decision Trees, and XGBoost are used to build accurate predictive models.",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2025-04-21T07:03:30Z",
+      "updated_at": "2025-04-21T07:22:16Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

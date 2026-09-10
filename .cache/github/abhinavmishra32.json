@@ -1,0 +1,804 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 61
+  },
+  "repos": [
+    {
+      "name": "Construct-IDE",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-09-04T09:36:08Z",
+      "updated_at": "2026-09-04T09:42:19Z",
+      "topics": []
+    },
+    {
+      "name": "aboutv3",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-08-30T17:46:30Z",
+      "updated_at": "2026-08-30T17:46:59Z",
+      "topics": [
+        "portfolio-website"
+      ]
+    },
+    {
+      "name": "spar",
+      "description": "Spar is a adaptive coding gym with deterministic challenge compilation.",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-08-14T12:40:23Z",
+      "updated_at": "2026-08-16T14:05:10Z",
+      "topics": []
+    },
+    {
+      "name": "hackathon-datahub-schemaguard",
+      "description": "SchemaGuard - Autonomous Data Quality Incident Response Agent for DataHub Agent Hackathon",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-07-27T16:34:39Z",
+      "updated_at": "2026-07-27T16:35:41Z",
+      "topics": []
+    },
+    {
+      "name": "opaline-ui",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-07-15T18:21:29Z",
+      "updated_at": "2026-07-14T17:55:39Z",
+      "topics": []
+    },
+    {
+      "name": "paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-07-17T11:15:58Z",
+      "updated_at": "2026-07-13T07:30:23Z",
+      "topics": []
+    },
+    {
+      "name": "jchess",
+      "description": "A fully playable Handmade Chess game in Java",
+      "language": "Java",
+      "fork": false,
+      "pushed_at": "2026-06-18T05:02:00Z",
+      "updated_at": "2026-06-29T05:30:47Z",
+      "topics": []
+    },
+    {
+      "name": "vibe-type",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-01-22T10:15:18Z",
+      "updated_at": "2026-06-28T15:23:09Z",
+      "topics": []
+    },
+    {
+      "name": "image-pipeline",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-06-28T12:43:49Z",
+      "updated_at": "2026-06-28T12:43:53Z",
+      "topics": []
+    },
+    {
+      "name": "fxpnt",
+      "description": "Low-level fixpoint-style agent runtime primitives",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-06-14T13:53:41Z",
+      "updated_at": "2026-06-14T13:53:45Z",
+      "topics": []
+    },
+    {
+      "name": "mini-bento",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-06-02T05:27:05Z",
+      "updated_at": "2026-06-02T05:27:08Z",
+      "topics": []
+    },
+    {
+      "name": "Neural-network-from-scratch",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2023-08-23T16:14:26Z",
+      "updated_at": "2026-06-01T13:47:00Z",
+      "topics": []
+    },
+    {
+      "name": "rgrep",
+      "description": "grep written in rust",
+      "language": "Makefile",
+      "fork": false,
+      "pushed_at": "2026-05-02T15:01:49Z",
+      "updated_at": "2026-05-02T15:01:52Z",
+      "topics": []
+    },
+    {
+      "name": "xitecoin",
+      "description": "XITECOIN -- An open source decentralised Blockchain implementation in Python",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-04-30T14:25:28Z",
+      "updated_at": "2026-04-30T14:27:05Z",
+      "topics": [
+        "blockchain",
+        "cryptocurrency"
+      ]
+    },
+    {
+      "name": "AbhinavMishra32",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-04-21T17:21:56Z",
+      "updated_at": "2026-04-21T17:22:00Z",
+      "topics": []
+    },
+    {
+      "name": "parallax",
+      "description": null,
+      "language": "Vue",
+      "fork": false,
+      "pushed_at": "2026-04-12T06:15:21Z",
+      "updated_at": "2026-04-12T06:58:42Z",
+      "topics": []
+    },
+    {
+      "name": "DecipathAI",
+      "description": "Decipath AI - Create Roadmaps with AI",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-03-05T15:14:39Z",
+      "updated_at": "2026-03-05T15:19:58Z",
+      "topics": []
+    },
+    {
+      "name": "open-codex-ui",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-02-21T08:48:52Z",
+      "updated_at": "2026-02-21T08:48:56Z",
+      "topics": []
+    },
+    {
+      "name": "ProjectX",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-01-31T14:45:59Z",
+      "updated_at": "2026-01-31T14:46:03Z",
+      "topics": []
+    },
+    {
+      "name": "FSD-CS-A",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-01-22T16:10:10Z",
+      "updated_at": "2026-01-22T16:15:03Z",
+      "topics": []
+    },
+    {
+      "name": "dCP",
+      "description": "Daily coding practice",
+      "language": "Java",
+      "fork": false,
+      "pushed_at": "2026-01-03T17:18:05Z",
+      "updated_at": "2026-01-03T17:18:09Z",
+      "topics": []
+    },
+    {
+      "name": "server",
+      "description": "MariaDB server is a community developed fork of MySQL server. Started by core members of the original MySQL team, MariaDB actively works with outside developers to deliver the most featureful, stable, and sanely licensed open SQL server in the industry.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-03-06T06:17:39Z",
+      "updated_at": "2025-12-26T19:14:33Z",
+      "topics": []
+    },
+    {
+      "name": "print-buddy",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-12-14T17:30:59Z",
+      "updated_at": "2025-12-15T12:42:37Z",
+      "topics": []
+    },
+    {
+      "name": "pdf-rag",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-09-07T15:50:01Z",
+      "updated_at": "2025-09-07T15:50:05Z",
+      "topics": []
+    },
+    {
+      "name": "to-do-list-kv-template",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-09-05T15:39:49Z",
+      "updated_at": "2025-09-05T15:39:53Z",
+      "topics": []
+    },
+    {
+      "name": "mm",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2024-12-11T12:30:09Z",
+      "updated_at": "2025-08-26T15:54:27Z",
+      "topics": []
+    },
+    {
+      "name": "smcc",
+      "description": "A small C compiler",
+      "language": "C",
+      "fork": false,
+      "pushed_at": "2025-08-20T17:36:56Z",
+      "updated_at": "2025-08-20T17:37:00Z",
+      "topics": []
+    },
+    {
+      "name": "dotfiles",
+      "description": null,
+      "language": "Lua",
+      "fork": false,
+      "pushed_at": "2025-08-16T04:32:44Z",
+      "updated_at": "2025-08-16T04:32:47Z",
+      "topics": []
+    },
+    {
+      "name": "Notely",
+      "description": "Notely - Note Taking Made Easy | Double Bracket",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-06-30T18:33:10Z",
+      "updated_at": "2025-06-30T18:33:13Z",
+      "topics": []
+    },
+    {
+      "name": "Zivankh-Task",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-06-18T08:05:50Z",
+      "updated_at": "2025-06-18T08:05:54Z",
+      "topics": []
+    },
+    {
+      "name": "ts-express-prisma-template",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2024-10-17T16:13:36Z",
+      "updated_at": "2025-05-04T17:05:59Z",
+      "topics": []
+    },
+    {
+      "name": "m-iq",
+      "description": "MACHINE IQ",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2025-04-15T18:06:50Z",
+      "updated_at": "2025-04-15T18:06:54Z",
+      "topics": []
+    },
+    {
+      "name": "expertbuddydemo",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-04-14T05:51:28Z",
+      "updated_at": "2025-04-14T05:52:00Z",
+      "topics": []
+    },
+    {
+      "name": "rxai",
+      "description": "Some of my smaller projects all in a single repo",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-03-31T17:02:17Z",
+      "updated_at": "2025-03-31T17:02:21Z",
+      "topics": []
+    },
+    {
+      "name": "gwnx",
+      "description": "gwnxOS",
+      "language": "C",
+      "fork": false,
+      "pushed_at": "2025-03-31T12:09:30Z",
+      "updated_at": "2025-03-31T12:09:44Z",
+      "topics": []
+    },
+    {
+      "name": "metacall-intellisense",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-02-25T14:06:55Z",
+      "updated_at": "2025-02-25T17:26:14Z",
+      "topics": []
+    },
+    {
+      "name": "metacall-ai-docs-assistant",
+      "description": "A chatbot which uses documentation of MetaCall as reference to answer user query about the documentation.",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-02-14T12:06:41Z",
+      "updated_at": "2025-02-14T12:06:44Z",
+      "topics": []
+    },
+    {
+      "name": "OpenGL",
+      "description": null,
+      "language": "C++",
+      "fork": false,
+      "pushed_at": "2025-02-04T13:59:13Z",
+      "updated_at": "2025-02-04T13:59:19Z",
+      "topics": []
+    },
+    {
+      "name": "bitcoin",
+      "description": "Bitcoin Core integration/staging tree",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-12-27T14:54:20Z",
+      "updated_at": "2024-12-27T15:48:54Z",
+      "topics": []
+    },
+    {
+      "name": "GenMail",
+      "description": null,
+      "language": "HTML",
+      "fork": true,
+      "pushed_at": "2024-12-24T13:12:37Z",
+      "updated_at": "2024-12-24T13:12:40Z",
+      "topics": []
+    },
+    {
+      "name": "tp1",
+      "description": "learning project",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-08-29T16:50:49Z",
+      "updated_at": "2024-12-16T17:43:05Z",
+      "topics": []
+    },
+    {
+      "name": "starter",
+      "description": "Starter template for LazyVim",
+      "language": "Lua",
+      "fork": true,
+      "pushed_at": "2024-09-06T04:03:10Z",
+      "updated_at": "2024-12-16T17:43:03Z",
+      "topics": []
+    },
+    {
+      "name": "colabeditor",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2024-09-06T12:49:05Z",
+      "updated_at": "2024-12-16T17:43:02Z",
+      "topics": []
+    },
+    {
+      "name": "nvimdot",
+      "description": "Kickstart nvim files",
+      "language": "Lua",
+      "fork": true,
+      "pushed_at": "2024-09-16T17:52:19Z",
+      "updated_at": "2024-12-16T17:43:00Z",
+      "topics": []
+    },
+    {
+      "name": "dbsocial",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2024-10-25T21:01:50Z",
+      "updated_at": "2024-12-16T17:42:58Z",
+      "topics": []
+    },
+    {
+      "name": "flappy",
+      "description": null,
+      "language": "C++",
+      "fork": false,
+      "pushed_at": "2024-11-20T12:59:47Z",
+      "updated_at": "2024-12-16T17:42:56Z",
+      "topics": []
+    },
+    {
+      "name": "TrueASCIIEngine",
+      "description": "True ASCII Game Engine",
+      "language": "C",
+      "fork": false,
+      "pushed_at": "2024-11-30T11:49:30Z",
+      "updated_at": "2024-12-16T17:42:55Z",
+      "topics": []
+    },
+    {
+      "name": "ARDEMA-Hackathon-Car-Rental-App",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-09-28T04:20:55Z",
+      "updated_at": "2024-09-28T04:20:58Z",
+      "topics": []
+    },
+    {
+      "name": "asciiengine",
+      "description": "Ascii particle engine",
+      "language": "C++",
+      "fork": false,
+      "pushed_at": "2024-09-11T19:54:40Z",
+      "updated_at": "2024-09-11T19:54:43Z",
+      "topics": []
+    },
+    {
+      "name": "Brouze",
+      "description": "BROUZE - A browser built from the ground up in C / C++",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-04-21T13:20:29Z",
+      "updated_at": "2024-09-08T14:50:41Z",
+      "topics": []
+    },
+    {
+      "name": "nvimdotfiles",
+      "description": null,
+      "language": "Lua",
+      "fork": false,
+      "pushed_at": "2024-07-24T08:31:02Z",
+      "updated_at": "2024-09-02T20:00:25Z",
+      "topics": []
+    },
+    {
+      "name": "yt-trend-analyser",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-04-11T10:50:49Z",
+      "updated_at": "2024-04-30T16:22:22Z",
+      "topics": []
+    },
+    {
+      "name": "drakify",
+      "description": "\ud83d\udcfb The \"slowed and reverbed\" version of your favorite song is a click away.",
+      "language": "Python",
+      "fork": true,
+      "pushed_at": "2024-03-08T20:25:32Z",
+      "updated_at": "2024-03-08T20:25:40Z",
+      "topics": []
+    },
+    {
+      "name": "elevenlabs-unleashed",
+      "description": "Provides unlimited ElevenLabs API calls.",
+      "language": "Python",
+      "fork": true,
+      "pushed_at": "2024-03-15T14:39:21Z",
+      "updated_at": "2024-03-06T14:30:31Z",
+      "topics": []
+    },
+    {
+      "name": "python_music_visualizer",
+      "description": null,
+      "language": "Python",
+      "fork": true,
+      "pushed_at": "2024-03-05T10:37:34Z",
+      "updated_at": "2024-03-05T10:37:38Z",
+      "topics": []
+    },
+    {
+      "name": "DOOM-style-Game",
+      "description": "DOOM-style 3D (raycasting) Game in Python Pygame",
+      "language": "Python",
+      "fork": true,
+      "pushed_at": "2024-01-29T14:38:55Z",
+      "updated_at": "2024-01-29T14:38:58Z",
+      "topics": []
+    },
+    {
+      "name": "about",
+      "description": "abhinavmishra.in",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-01-26T17:12:52Z",
+      "updated_at": "2024-01-20T11:52:56Z",
+      "topics": []
+    },
+    {
+      "name": "speedtyper.dev",
+      "description": "Type racing for programmers ",
+      "language": "TypeScript",
+      "fork": true,
+      "pushed_at": "2024-01-05T16:54:15Z",
+      "updated_at": "2024-01-05T16:54:20Z",
+      "topics": []
+    },
+    {
+      "name": "bitcoin-0.1.0",
+      "description": "For posterity and educational uses only - Extracted files from bitcoin-0.1.0.rar sent to Hal Finney dated 07Jan09 SHA256=91e2dfa2af043eabbb38964cbf368500 ec9ed4ccbc990eceb922ff0c4d71d1ad466990dd",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2021-06-22T16:14:35Z",
+      "updated_at": "2023-12-31T06:49:41Z",
+      "topics": []
+    },
+    {
+      "name": "notes-app",
+      "description": " A web app for note-taking equipped with login capabilities, leveraging MongoDB, ExpressJS, and Node.js.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-12-10T11:31:54Z",
+      "updated_at": "2023-12-02T10:11:21Z",
+      "topics": []
+    },
+    {
+      "name": "dev",
+      "description": "Development git",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-02-23T17:07:14Z",
+      "updated_at": "2023-11-14T13:00:37Z",
+      "topics": []
+    }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-04T09:36:06Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-03T15:15:52Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-03T14:50:23Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-03T14:47:14Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T11:56:13Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-03T13:52:13Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T15:06:22Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T15:02:37Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T11:41:30Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T11:38:46Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T11:24:54Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T11:37:27Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T11:33:31Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T11:24:39Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T10:19:35Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T10:11:01Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-28T20:04:31Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T16:31:04Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T18:25:36Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T18:10:42Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T14:40:22Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T12:50:17Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T17:34:39Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T13:20:37Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T16:37:52Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T11:54:36Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T12:39:56Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T12:22:10Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T12:29:26Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T12:04:38Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T11:19:43Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T11:42:46Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T12:14:40Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T11:58:32Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T11:47:23Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T11:31:51Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T11:11:38Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-19T07:12:42Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-19T06:25:48Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-19T07:27:44Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-19T07:04:42Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-19T07:06:39Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-19T07:02:20Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-19T06:59:28Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-19T06:29:06Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-19T06:39:22Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T18:34:25Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T19:00:49Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T18:46:50Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T19:03:50Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T18:47:58Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T18:40:15Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T18:17:58Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T18:42:02Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T14:33:16Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T14:32:52Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-14T12:40:24Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-14T12:36:11Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-12T19:52:42Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-12T19:51:19Z"
+    }
+  ]
+}

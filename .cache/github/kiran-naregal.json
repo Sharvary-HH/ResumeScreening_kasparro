@@ -1,0 +1,86 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 8
+  },
+  "repos": [
+    {
+      "name": "code-review-agent",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-18T14:14:57Z",
+      "updated_at": "2026-08-18T14:20:37Z",
+      "topics": []
+    },
+    {
+      "name": "wild-oasis-website",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-12-19T07:05:29Z",
+      "updated_at": "2024-12-19T07:05:33Z",
+      "topics": []
+    },
+    {
+      "name": "pizza-app",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-12-13T13:01:32Z",
+      "updated_at": "2024-12-13T13:01:35Z",
+      "topics": []
+    },
+    {
+      "name": "Global-News-App",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-12-08T15:35:01Z",
+      "updated_at": "2024-12-08T15:35:05Z",
+      "topics": []
+    },
+    {
+      "name": "sticky-notes-react-app",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-07-11T11:36:07Z",
+      "updated_at": "2024-07-11T11:36:11Z",
+      "topics": []
+    },
+    {
+      "name": "100_Code_Library",
+      "description": null,
+      "language": "C++",
+      "fork": false,
+      "pushed_at": "2023-04-21T14:58:45Z",
+      "updated_at": "2023-04-21T14:58:49Z",
+      "topics": []
+    },
+    {
+      "name": "Microservices",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-04-05T06:22:58Z",
+      "updated_at": "2023-04-03T11:15:38Z",
+      "topics": []
+    },
+    {
+      "name": "DUGC_Withdrawal",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-03-24T09:45:50Z",
+      "updated_at": "2022-12-03T07:53:21Z",
+      "topics": []
+    }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-18T14:14:57Z"
+    }
+  ]
+}

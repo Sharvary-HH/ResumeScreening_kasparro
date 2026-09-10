@@ -1,0 +1,260 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 18
+  },
+  "repos": [
+    {
+      "name": "neetcode-submissions",
+      "description": "My NeetCode.io problem submissions",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-09-07T17:43:09Z",
+      "updated_at": "2026-09-07T17:43:35Z",
+      "topics": []
+    },
+    {
+      "name": "ai-document-intelligence",
+      "description": "AI-powered document intelligence engine using LLMs + RAG. Built with FastAPI, Celery, Redis, and PostgreSQL (pgvector) for async processing, caching, and semantic search. Implements chunked embeddings and retrieval-aware analysis. Dockerized with AWS-Nginx ready architecture.",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-05-17T19:25:04Z",
+      "updated_at": "2026-08-05T20:03:32Z",
+      "topics": []
+    },
+    {
+      "name": "Memory-Garden",
+      "description": "Memory assistant tool for whole different application of Jarvis",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-07-26T17:50:15Z",
+      "updated_at": "2026-07-26T17:50:27Z",
+      "topics": []
+    },
+    {
+      "name": "personal-ai-assistant",
+      "description": "(Ongoing Project) Building my personal AI assistant who can do everything for me. Trying to Implement Scaling and AI concepts, learning so many things while building. ",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-06-26T14:22:48Z",
+      "updated_at": "2026-06-26T14:22:52Z",
+      "topics": []
+    },
+    {
+      "name": "job-market-etl-platform",
+      "description": "The platform collects job listings from multiple sources, processes the data, and produces analytics about the job market.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-03-26T16:35:24Z",
+      "updated_at": "2026-05-20T18:57:52Z",
+      "topics": []
+    },
+    {
+      "name": "Haystack-rag-chat",
+      "description": "Hybrid RAG system built with Haystack, FastAPI, and Ollama featuring streaming responses, caching, and explainable retrieval with source tracing.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-05-18T14:23:23Z",
+      "updated_at": "2026-05-18T14:27:50Z",
+      "topics": []
+    },
+    {
+      "name": "haystack-study-notes-assistant",
+      "description": "Minimal Haystack Practice",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-04-24T20:51:26Z",
+      "updated_at": "2026-04-29T20:25:13Z",
+      "topics": []
+    },
+    {
+      "name": "voice-calculator",
+      "description": "Python GUI voice calculator with speech recognition, supporting real-time math operations and trigonometric functions.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-03-27T10:30:46Z",
+      "updated_at": "2026-03-27T11:47:45Z",
+      "topics": []
+    },
+    {
+      "name": "Infomaniac-newsapp",
+      "description": "AI-powered news aggregator with infinite scrolling, category-based routing, and real-time updates using React & NewsAPI.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-03-27T11:08:13Z",
+      "updated_at": "2026-03-27T11:09:56Z",
+      "topics": []
+    },
+    {
+      "name": "Retail-Data-Analysis",
+      "description": "Retail data analytics to clean and explore sales transactions to uncover top products, seasonality, and customer value. Includes EDA, visualizations, and key business insights using Python pandas and Matplotlib/seaborn.",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2026-03-27T10:47:39Z",
+      "updated_at": "2026-03-27T10:56:17Z",
+      "topics": []
+    },
+    {
+      "name": "IPL-Data-Analysis",
+      "description": "A focused notebook-based sports analytics project analyzing performance trends and key statistics. Includes data cleaning, feature exploration, visual dashboards, and concise insights to support data-driven conclusions. ",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2026-03-27T10:46:20Z",
+      "updated_at": "2026-03-27T10:53:43Z",
+      "topics": []
+    },
+    {
+      "name": "agsaq",
+      "description": "AI-powered full-stack chat platform with WhatsApp-style messaging, PDF summarization, and real-time integrations, designed to scale into multilingual voice call features in the next phase.",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-10-20T10:16:50Z",
+      "updated_at": "2026-03-27T10:03:39Z",
+      "topics": []
+    },
+    {
+      "name": "sentiment-analysis-app",
+      "description": "Full-stack NLP application for sentiment and emotion analysis with real-time Twitter & YouTube data, built using Streamlit, ML, and Transformers.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-03-27T09:56:32Z",
+      "updated_at": "2026-03-27T09:58:27Z",
+      "topics": []
+    },
+    {
+      "name": "jobposting_platform",
+      "description": "A backend system for managing users, authentication, and profile-related features in a job platform similar to LinkedIn.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-03-26T19:04:45Z",
+      "updated_at": "2026-03-27T07:48:38Z",
+      "topics": []
+    },
+    {
+      "name": "FLASKREACTAPK",
+      "description": "Flask-React application for login-signup using authentication",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-03-03T05:53:31Z",
+      "updated_at": "2025-03-03T05:53:34Z",
+      "topics": []
+    },
+    {
+      "name": "inotebook",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2022-09-07T06:41:29Z",
+      "updated_at": "2022-08-27T10:55:27Z",
+      "topics": []
+    },
+    {
+      "name": "Textutils",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2022-08-06T09:11:57Z",
+      "updated_at": "2022-08-01T12:07:49Z",
+      "topics": []
+    },
+    {
+      "name": "quizly-rejoicehub",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2022-05-02T11:44:44Z",
+      "updated_at": "2022-05-02T11:43:11Z",
+      "topics": []
+    }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-07T14:39:14Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-07T17:42:11Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-07T17:43:09Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-15T14:54:22Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-15T12:45:48Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-14T16:23:55Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-14T16:22:38Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-14T11:48:31Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-13T17:06:35Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-13T16:36:13Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-13T12:35:48Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-13T10:00:38Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-13T09:15:53Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-13T08:54:57Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-12T16:27:47Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-12T16:22:27Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-12T15:21:56Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-12T13:50:53Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-12T12:44:39Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-12T12:20:53Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-11T17:25:46Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-11T12:28:06Z"
+    }
+  ]
+}

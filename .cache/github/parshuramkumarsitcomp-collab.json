@@ -1,0 +1,63 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 6
+  },
+  "repos": [
+    {
+      "name": "-AI-summaries",
+      "description": "Live task activity updates from the mock feed, plus streamed AI summaries.",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-07-02T05:54:07Z",
+      "updated_at": "2026-07-02T05:54:07Z",
+      "topics": []
+    },
+    {
+      "name": "PayrollApp",
+      "description": "Employee Payroll Run Module",
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2026-06-08T05:33:39Z",
+      "updated_at": "2026-06-08T05:33:43Z",
+      "topics": []
+    },
+    {
+      "name": "hrms-lite-project",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-03-19T12:51:59Z",
+      "updated_at": "2026-03-19T12:52:03Z",
+      "topics": []
+    },
+    {
+      "name": "hrms-lite",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-03-19T10:10:18Z",
+      "updated_at": "2026-03-19T10:10:21Z",
+      "topics": []
+    },
+    {
+      "name": "HRMS-Lite-",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-03-07T12:38:07Z",
+      "updated_at": "2026-03-07T12:38:07Z",
+      "topics": []
+    },
+    {
+      "name": "Karbon-Board",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-02-08T07:24:31Z",
+      "updated_at": "2026-02-08T07:24:35Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

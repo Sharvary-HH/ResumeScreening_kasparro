@@ -1,0 +1,297 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 32
+  },
+  "repos": [
+    {
+      "name": "voice-ai-backend",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-07T10:59:12Z",
+      "updated_at": "2026-08-07T10:59:21Z",
+      "topics": []
+    },
+    {
+      "name": "voice-ai-frontend",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2026-08-06T11:24:23Z",
+      "updated_at": "2026-08-06T11:26:04Z",
+      "topics": []
+    },
+    {
+      "name": "python-low-level-design",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-07-25T13:50:04Z",
+      "updated_at": "2026-07-25T13:50:32Z",
+      "topics": []
+    },
+    {
+      "name": "medical-ai-assistant",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-07-14T13:53:51Z",
+      "updated_at": "2026-07-14T13:55:26Z",
+      "topics": []
+    },
+    {
+      "name": "DSA",
+      "description": "DSA problems solved topic by topic",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-05-21T05:36:59Z",
+      "updated_at": "2026-05-21T05:37:18Z",
+      "topics": []
+    },
+    {
+      "name": "HPC-Chatbot-Public",
+      "description": "Natural language-to-SQL AI assistant for HPC cluster  monitoring",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-04-28T07:15:49Z",
+      "updated_at": "2026-04-28T07:15:54Z",
+      "topics": []
+    },
+    {
+      "name": "HPC-Monitoring-Framework",
+      "description": "Agentless HPC telemetry framework",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-04-28T07:02:01Z",
+      "updated_at": "2026-04-28T07:02:04Z",
+      "topics": []
+    },
+    {
+      "name": "prajwal-chatbotai-app",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-11-01T00:54:23Z",
+      "updated_at": "2025-10-23T10:19:45Z",
+      "topics": []
+    },
+    {
+      "name": "Data_art-assignment",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2025-08-06T17:24:03Z",
+      "updated_at": "2025-08-06T17:24:06Z",
+      "topics": []
+    },
+    {
+      "name": "recode-website",
+      "description": "recodehive helps you to learn and master the skills on data, and encourage you to code on opensource.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2025-07-11T06:07:49Z",
+      "updated_at": "2025-07-15T08:47:47Z",
+      "topics": []
+    },
+    {
+      "name": "Url_shortner",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-09-11T14:34:09Z",
+      "updated_at": "2024-09-11T14:39:55Z",
+      "topics": []
+    },
+    {
+      "name": "Zysk_assignment1",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-06-26T15:03:11Z",
+      "updated_at": "2024-06-26T15:03:14Z",
+      "topics": []
+    },
+    {
+      "name": "Zysk_assignment",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-06-26T14:39:02Z",
+      "updated_at": "2024-06-26T14:39:05Z",
+      "topics": []
+    },
+    {
+      "name": "Theif-Detection-Alarm",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-04-29T06:08:24Z",
+      "updated_at": "2024-04-29T06:08:27Z",
+      "topics": []
+    },
+    {
+      "name": "Marmeto_assignment",
+      "description": "Single Page Cart",
+      "language": "CSS",
+      "fork": false,
+      "pushed_at": "2024-04-24T06:33:55Z",
+      "updated_at": "2024-04-24T06:51:13Z",
+      "topics": []
+    },
+    {
+      "name": "crypto_tracker",
+      "description": "The \"CryptoTracker\" project is a real-time cryptocurrency tracking application built with React.js. Its primary aim is to offer users a user-friendly platform for monitoring and visualizing live cryptocurrency data sourced from various exchanges. By leveraging React.js, the application provides a dynamic and responsive user interface.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-03-04T07:53:04Z",
+      "updated_at": "2024-03-04T08:30:28Z",
+      "topics": []
+    },
+    {
+      "name": "Quiz_App",
+      "description": "The Quiz App is a dynamic platform built with ReactJS and Material UI, offering users access to trivia questions across 22 diverse categories. Leveraging the Trivia API, it delivers an engaging experience by presenting questions spanning various fields, ensuring a rich and diverse quiz-taking experience. ",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-02-25T08:50:56Z",
+      "updated_at": "2024-02-25T09:18:12Z",
+      "topics": []
+    },
+    {
+      "name": "AI_IMAGE_CREATOR",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-02-16T06:47:01Z",
+      "updated_at": "2024-02-16T06:47:05Z",
+      "topics": []
+    },
+    {
+      "name": "AI_IMAGE_GENERATOR",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-02-15T16:06:46Z",
+      "updated_at": "2024-02-15T11:57:22Z",
+      "topics": []
+    },
+    {
+      "name": "Movie_App",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-02-14T05:04:33Z",
+      "updated_at": "2024-02-14T04:58:10Z",
+      "topics": []
+    },
+    {
+      "name": "Entertainment_Hub",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-02-14T04:44:01Z",
+      "updated_at": "2024-02-13T15:23:33Z",
+      "topics": []
+    },
+    {
+      "name": "Shopping_cart",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-02-02T08:58:19Z",
+      "updated_at": "2024-02-02T08:56:00Z",
+      "topics": []
+    },
+    {
+      "name": "Product_shopping",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-02-02T08:37:22Z",
+      "updated_at": "2024-02-02T08:36:22Z",
+      "topics": []
+    },
+    {
+      "name": "Quiz_Hub",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-02-02T06:35:12Z",
+      "updated_at": "2024-02-02T06:35:15Z",
+      "topics": []
+    },
+    {
+      "name": "Movie_Booking",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-02-01T09:47:21Z",
+      "updated_at": "2024-02-01T09:47:25Z",
+      "topics": []
+    },
+    {
+      "name": "booking_App",
+      "description": "Created with CodeSandbox",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-02-01T09:00:07Z",
+      "updated_at": "2024-02-01T09:00:07Z",
+      "topics": []
+    },
+    {
+      "name": "Student_dashboard",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-01-17T03:36:17Z",
+      "updated_at": "2024-01-17T03:36:20Z",
+      "topics": []
+    },
+    {
+      "name": "Product-Page",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-12-13T05:39:54Z",
+      "updated_at": "2023-12-13T05:39:57Z",
+      "topics": []
+    },
+    {
+      "name": "Product_Page",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-12-13T05:35:37Z",
+      "updated_at": "2023-12-13T05:35:40Z",
+      "topics": []
+    },
+    {
+      "name": "Admin_DashBoard",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-12-03T16:36:20Z",
+      "updated_at": "2023-12-03T16:36:23Z",
+      "topics": []
+    },
+    {
+      "name": "DashBoard_Ui",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2023-12-03T15:31:49Z",
+      "updated_at": "2023-12-03T15:31:49Z",
+      "topics": []
+    },
+    {
+      "name": "Reastuarant_Menu",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-11-29T08:47:26Z",
+      "updated_at": "2023-11-29T07:43:07Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

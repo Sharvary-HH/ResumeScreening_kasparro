@@ -1,0 +1,131 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 13
+  },
+  "repos": [
+    {
+      "name": "food-assistant-backend",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2026-09-10T11:36:05Z",
+      "updated_at": "2026-09-10T11:36:58Z",
+      "topics": []
+    },
+    {
+      "name": "food-assistant",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2026-09-09T17:03:51Z",
+      "updated_at": "2026-09-09T17:06:15Z",
+      "topics": []
+    },
+    {
+      "name": "mini-erp-crm",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-07-29T09:57:12Z",
+      "updated_at": "2026-07-29T09:58:51Z",
+      "topics": []
+    },
+    {
+      "name": "Job-Shop-Scheduling-SGO",
+      "description": "A novel population-based meta-heuristic algorithm (SGO) inspired by human  social behavior, developed to solve NP-hard Job Shop Scheduling Problems.",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-07-16T15:00:52Z",
+      "updated_at": "2026-07-16T15:01:06Z",
+      "topics": []
+    },
+    {
+      "name": "AskEditor",
+      "description": "Responsive web app built with React.js, HTML5, CSS3, JavaScript",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-07-16T14:58:12Z",
+      "updated_at": "2026-07-16T14:59:18Z",
+      "topics": []
+    },
+    {
+      "name": "jaya-nandi",
+      "description": "GitHub profile README",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-05-27T22:54:04Z",
+      "updated_at": "2025-07-19T14:58:13Z",
+      "topics": []
+    },
+    {
+      "name": "diwali-sales-analysis",
+      "description": "Data analysis project using Pandas, Matplotlib, Seaborn",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2025-05-27T23:14:01Z",
+      "updated_at": "2025-05-27T23:14:05Z",
+      "topics": []
+    },
+    {
+      "name": "php-crud-aap",
+      "description": "PHP+MySQL based student record CRUD app",
+      "language": "PHP",
+      "fork": false,
+      "pushed_at": "2025-05-27T22:39:59Z",
+      "updated_at": "2025-05-27T22:40:02Z",
+      "topics": []
+    },
+    {
+      "name": "weather-app",
+      "description": "simple weather app using vanilla JS and open Weather Map API",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-05-27T22:33:27Z",
+      "updated_at": "2025-05-27T22:33:31Z",
+      "topics": []
+    },
+    {
+      "name": "wordpress-custom-blog",
+      "description": "A customized WordPress blog with PHP and theme edits",
+      "language": "PHP",
+      "fork": false,
+      "pushed_at": "2025-05-27T19:57:44Z",
+      "updated_at": "2025-05-27T19:57:48Z",
+      "topics": []
+    },
+    {
+      "name": "php-contact-form",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2025-05-27T19:52:43Z",
+      "updated_at": "2025-05-27T19:52:46Z",
+      "topics": []
+    },
+    {
+      "name": "wp-hello-shortcode",
+      "description": "Asimple WordPress plugin",
+      "language": "PHP",
+      "fork": false,
+      "pushed_at": "2025-05-27T19:44:38Z",
+      "updated_at": "2025-05-27T19:44:42Z",
+      "topics": []
+    },
+    {
+      "name": "jaya",
+      "description": "this is my first git repository",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2025-03-27T08:52:35Z",
+      "updated_at": "2025-03-27T08:52:39Z",
+      "topics": []
+    }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-10T11:36:06Z"
+    }
+  ]
+}

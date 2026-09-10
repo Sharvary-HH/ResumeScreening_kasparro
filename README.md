@@ -355,10 +355,13 @@ There is a test pinning that behaviour.
 A take-home that dies on a missing credential does not get read. Four things guard against
 that:
 
-1. **`.cache/llm/` is committed.** Cache keys are content hashes of model + messages, so
-   running the same 50 resumes with the same model is a 100% cache hit — the whole batch
-   completes with zero API calls and no key. Verified: `--offline` produces all 50
-   candidates with 0 LLM failures.
+1. **`.cache/llm/` and `.cache/github/` are committed.** LLM cache keys are content
+   hashes of model + messages, so running the same 50 resumes with the same model is a
+   100% cache hit — the whole batch completes with zero API calls and no key. The GitHub
+   cache means a reviewer without a token gets real enrichment scores instead of 33
+   `rate_limited` zeros. It stores only the handful of fields that feed the score, which
+   is the difference between 264 KB and 4.5 MB of raw API payloads. Verified from a clean
+   clone with no `.env`: all 50 candidates, 0 LLM failures, in 8 seconds.
 2. **`--offline`** serves from cache only and never touches the network. A cache miss
    records `llm_unavailable` on that candidate and the batch continues.
 3. **A missing key fails with a sentence, not a traceback:** `LLM_API_KEY not set. Run

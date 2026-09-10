@@ -1,0 +1,171 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 18
+  },
+  "repos": [
+    {
+      "name": "Krikapay",
+      "description": null,
+      "language": "Java",
+      "fork": false,
+      "pushed_at": "2026-05-28T20:31:07Z",
+      "updated_at": "2026-07-18T16:23:50Z",
+      "topics": []
+    },
+    {
+      "name": "ai-powered-resume-screener",
+      "description": "AI-powered resume screening system built with Spring Boot, MongoDB, and Spring AI",
+      "language": "Java",
+      "fork": false,
+      "pushed_at": "2026-05-30T18:57:03Z",
+      "updated_at": "2026-06-17T10:17:27Z",
+      "topics": []
+    },
+    {
+      "name": "serverVanilla2026",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-02-17T11:09:13Z",
+      "updated_at": "2026-04-06T06:02:43Z",
+      "topics": []
+    },
+    {
+      "name": "whatsapp-chatbot",
+      "description": "Accept JSON input simulating WhatsApp messages Respond with predefined replies (Hi \u2192 Hello, Bye \u2192 Goodbye) Log all incoming messages",
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2026-04-04T17:22:25Z",
+      "updated_at": "2026-04-04T17:22:31Z",
+      "topics": []
+    },
+    {
+      "name": "Inventory-management-system",
+      "description": "practices for the basics understanding hows its work internally",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-01-27T08:17:07Z",
+      "updated_at": "2026-01-27T08:17:07Z",
+      "topics": []
+    },
+    {
+      "name": "dio-lab-open-source",
+      "description": "Reposit\u00f3rio do lab \"Contribuindo em um Projeto Open Source no GitHub\" da Digital Innovation One.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-25T18:53:18Z",
+      "updated_at": "2026-01-25T19:08:46Z",
+      "topics": []
+    },
+    {
+      "name": "plugin-modernizer-tool",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-23T16:55:29Z",
+      "updated_at": "2026-01-23T19:24:35Z",
+      "topics": []
+    },
+    {
+      "name": "Dockerize-a-Simple-Web-App-and-Deploy-with-GitHub-Actions",
+      "description": "The project \u201cDockerize a Simple Web App and Deploy with GitHub Actions\u201d is designed to give beginners hands-on experience with fundamental DevOps practices. It focuses on two important skills: containerization with Docker and automation of deployment using CI/CD pipelines.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-10-01T19:33:52Z",
+      "updated_at": "2026-01-19T06:58:15Z",
+      "topics": []
+    },
+    {
+      "name": "Multi-Cloud-Infrastructure-as-Code-Project",
+      "description": "Design and deploy a microservices-based application across multiple cloud providers (AWS, Azure, GCP) using Terraform and automation tools. The system should be scalable, cost-optimized, and observable.",
+      "language": "HCL",
+      "fork": false,
+      "pushed_at": "2025-09-17T11:39:41Z",
+      "updated_at": "2026-01-19T06:58:04Z",
+      "topics": []
+    },
+    {
+      "name": "whisper-jax",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-04-03T21:06:47Z",
+      "updated_at": "2026-01-18T18:03:33Z",
+      "topics": []
+    },
+    {
+      "name": "siplidty",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-01-17T18:33:52Z",
+      "updated_at": "2026-01-17T18:33:52Z",
+      "topics": []
+    },
+    {
+      "name": "Realtime-MLOps-Project",
+      "description": "Realtime MLOps Implementation using DVC, Docker, GitHub Actions, Kubernetes, KServe and Argo CD.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-16T13:11:48Z",
+      "updated_at": "2026-01-16T20:11:03Z",
+      "topics": []
+    },
+    {
+      "name": "CUDALibrarySamples",
+      "description": "CUDA Library Samples",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-05T17:33:55Z",
+      "updated_at": "2026-01-06T19:25:10Z",
+      "topics": []
+    },
+    {
+      "name": "gtm-ideas",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-11-22T10:16:48Z",
+      "updated_at": "2025-11-22T10:16:48Z",
+      "topics": []
+    },
+    {
+      "name": "interactive-cv",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2025-11-14T11:18:04Z",
+      "updated_at": "2025-11-14T11:18:08Z",
+      "topics": []
+    },
+    {
+      "name": "js-hindi-youtube",
+      "description": "a code repo of javascript from youtube ",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-01-10T21:15:15Z",
+      "updated_at": "2025-10-05T09:48:33Z",
+      "topics": []
+    },
+    {
+      "name": "Simple-DevOps-Project",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-08-17T14:13:40Z",
+      "updated_at": "2025-10-05T09:48:31Z",
+      "topics": []
+    },
+    {
+      "name": "moniterchecker",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-09-12T12:47:36Z",
+      "updated_at": "2025-10-05T09:48:24Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

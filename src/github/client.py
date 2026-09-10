@@ -121,11 +121,34 @@ def _cache_read(username: str) -> Optional[Dict[str, Any]]:
         return None
 
 
+# Only these fields feed the score. Caching the raw API responses instead costs
+# ~140x the disk for nothing, and the cache is committed to the repo.
+_REPO_FIELDS = ("name", "description", "language", "fork", "pushed_at", "updated_at",
+                "topics")
+_EVENT_FIELDS = ("type", "created_at")
+
+
+def _slim(payload: Dict[str, Any]) -> Dict[str, Any]:
+    return {
+        "status": payload.get("status", "ok"),
+        "user": {"public_repos": (payload.get("user") or {}).get("public_repos")},
+        "repos": [
+            {key: repo.get(key) for key in _REPO_FIELDS}
+            for repo in payload.get("repos") or []
+        ],
+        "events": [
+            {key: event.get(key) for key in _EVENT_FIELDS}
+            for event in payload.get("events") or []
+            if event.get("type") == "PushEvent"
+        ],
+    }
+
+
 def _cache_write(username: str, payload: Dict[str, Any]) -> None:
     try:
         config.GITHUB_CACHE_DIR.mkdir(parents=True, exist_ok=True)
         _cache_path(username).write_text(
-            json.dumps(payload, indent=2), encoding="utf-8"
+            json.dumps(_slim(payload), indent=2), encoding="utf-8"
         )
     except OSError:
         pass

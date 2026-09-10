@@ -1,0 +1,234 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 25
+  },
+  "repos": [
+    {
+      "name": "Bindu",
+      "description": "Bindu: Turn any AI agent into a living microservice -  interoperable, observable, composable.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-04-17T10:25:24Z",
+      "updated_at": "2026-04-17T12:57:20Z",
+      "topics": []
+    },
+    {
+      "name": "Open-source-GSSOC",
+      "description": "GSSoC is a 3-month long #OpenSource program by GirlScript Foundation, India.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-05-14T14:20:30Z",
+      "updated_at": "2026-01-27T09:20:18Z",
+      "topics": []
+    },
+    {
+      "name": "automarket",
+      "description": "Auto Market is the online platform to create and use automation apps.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-05-20T07:42:54Z",
+      "updated_at": "2026-01-27T09:20:15Z",
+      "topics": []
+    },
+    {
+      "name": "ALL_INDIA_HACKATHON",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-05-19T14:31:22Z",
+      "updated_at": "2026-01-27T09:20:15Z",
+      "topics": []
+    },
+    {
+      "name": "learn-python",
+      "description": "\ud83d\udcd6\ud83d\udc0d Free & Open Source book to master Python 3. Also available: PDF & Web Interface.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-05-23T00:16:52Z",
+      "updated_at": "2026-01-27T09:20:12Z",
+      "topics": []
+    },
+    {
+      "name": "Hedging-of-Financial-Derivatives",
+      "description": "This strategy works for every market condition irrespective of the movement",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-05-23T08:17:50Z",
+      "updated_at": "2026-01-27T09:20:11Z",
+      "topics": []
+    },
+    {
+      "name": "SoundScape",
+      "description": "Real Time Sound Visualizer",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-06-16T07:31:30Z",
+      "updated_at": "2026-01-27T09:20:10Z",
+      "topics": []
+    },
+    {
+      "name": "autogen",
+      "description": "A programming framework for agentic AI",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2025-10-08T04:58:17Z",
+      "updated_at": "2026-01-27T09:20:05Z",
+      "topics": []
+    },
+    {
+      "name": "playwright-mcp",
+      "description": "Playwright MCP server",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-07T17:46:49Z",
+      "updated_at": "2026-01-27T09:20:03Z",
+      "topics": []
+    },
+    {
+      "name": "langgraph",
+      "description": "Build resilient language agents as graphs.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-09T00:08:51Z",
+      "updated_at": "2026-01-27T09:19:59Z",
+      "topics": []
+    },
+    {
+      "name": "healthcare-plus-ai",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-01-27T08:06:15Z",
+      "updated_at": "2026-01-27T08:09:31Z",
+      "topics": []
+    },
+    {
+      "name": "AI_Layout_Generator",
+      "description": "Generates Layout According to the Rules Specified",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-01-09T14:05:19Z",
+      "updated_at": "2026-01-09T14:41:04Z",
+      "topics": []
+    },
+    {
+      "name": "pytorch_fundamentals",
+      "description": "Introduction to PyTorch, covering tensor initialization, operations, indexing, and reshaping.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2025-04-26T07:28:45Z",
+      "updated_at": "2026-01-09T13:42:10Z",
+      "topics": []
+    },
+    {
+      "name": "smolagents",
+      "description": "\ud83e\udd17 smolagents: a barebones library for agents that think in code.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2025-12-23T08:54:32Z",
+      "updated_at": "2026-01-09T13:42:07Z",
+      "topics": []
+    },
+    {
+      "name": "generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-05T17:39:19Z",
+      "updated_at": "2026-01-09T13:42:06Z",
+      "topics": []
+    },
+    {
+      "name": "LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-08T01:14:18Z",
+      "updated_at": "2026-01-09T13:42:04Z",
+      "topics": []
+    },
+    {
+      "name": "llama_index",
+      "description": "LlamaIndex is the leading framework for building LLM-powered agents over your data.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-08T02:41:40Z",
+      "updated_at": "2026-01-09T13:42:03Z",
+      "topics": []
+    },
+    {
+      "name": "sdk-python",
+      "description": "A model-driven approach to building AI agents in just a few lines of code.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-08T15:50:24Z",
+      "updated_at": "2026-01-09T13:42:01Z",
+      "topics": []
+    },
+    {
+      "name": "crewAI",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-01-09T00:33:29Z",
+      "updated_at": "2026-01-09T13:42:00Z",
+      "topics": []
+    },
+    {
+      "name": "Shubhanshu-356",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-01-09T13:31:26Z",
+      "updated_at": "2026-01-09T13:31:30Z",
+      "topics": []
+    },
+    {
+      "name": "AI_GAME_REFEREE_CHATBOT",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-01-08T08:56:23Z",
+      "updated_at": "2026-01-08T09:19:07Z",
+      "topics": []
+    },
+    {
+      "name": "free-cluely",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-07-18T03:28:43Z",
+      "updated_at": "2026-01-08T09:19:03Z",
+      "topics": []
+    },
+    {
+      "name": "onlineLearningPlateformNM",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-11-27T06:29:53Z",
+      "updated_at": "2025-04-25T16:35:55Z",
+      "topics": []
+    },
+    {
+      "name": "IBM-Applied-Data-Science-Project",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2023-11-01T17:42:53Z",
+      "updated_at": "2024-05-21T04:30:51Z",
+      "topics": []
+    },
+    {
+      "name": "Scrape-ML",
+      "description": "For new data generation Semi-supervised-sequence-learning-Project we have writtern a python script to fetch\ud83d\udcca, data from the \ud83d\udcbb, imdb website \ud83c\udf10 and converted into txt files.",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-05-19T13:46:02Z",
+      "updated_at": "2024-05-19T15:25:08Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

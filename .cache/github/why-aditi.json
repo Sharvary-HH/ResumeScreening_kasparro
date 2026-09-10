@@ -1,0 +1,770 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 52
+  },
+  "repos": [
+    {
+      "name": "Understudy",
+      "description": "An LLM discovers how to accomplish a goal in a UI, records it as a typed capability artifact, and replays it deterministically with no model in the decision loop.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-09-10T11:52:11Z",
+      "updated_at": "2026-09-10T11:52:44Z",
+      "topics": []
+    },
+    {
+      "name": "PitchPerfect",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-09-04T21:35:13Z",
+      "updated_at": "2026-09-04T21:35:17Z",
+      "topics": []
+    },
+    {
+      "name": "hinglish-turn-detector",
+      "description": "Tiny audio turn-detection model for Hinglish (Whisper-tiny + from-scratch CRNN)",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-09-02T22:09:51Z",
+      "updated_at": "2026-09-02T22:10:08Z",
+      "topics": []
+    },
+    {
+      "name": "linkedin-profile-api",
+      "description": "Reverse-engineered LinkedIn Voyager API -> structured JSON over HTTPS. No browser, no Selenium.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-28T17:19:48Z",
+      "updated_at": "2026-08-28T17:23:00Z",
+      "topics": []
+    },
+    {
+      "name": "ghost-town",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-11T20:58:36Z",
+      "updated_at": "2026-08-11T20:58:41Z",
+      "topics": []
+    },
+    {
+      "name": "Portfolio",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-08-11T09:33:09Z",
+      "updated_at": "2026-08-10T21:55:04Z",
+      "topics": []
+    },
+    {
+      "name": "Zycus-Assignment",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-09T21:37:32Z",
+      "updated_at": "2026-08-09T21:37:36Z",
+      "topics": []
+    },
+    {
+      "name": "Roxiler-Assignment",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-08-09T21:25:05Z",
+      "updated_at": "2026-08-09T21:25:09Z",
+      "topics": []
+    },
+    {
+      "name": "Talon-ATS-PP",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-08-08T13:43:21Z",
+      "updated_at": "2026-08-08T13:18:51Z",
+      "topics": []
+    },
+    {
+      "name": "Scribe",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-07-29T17:53:58Z",
+      "updated_at": "2026-07-29T17:56:59Z",
+      "topics": []
+    },
+    {
+      "name": "kalamitra",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-07-28T10:38:54Z",
+      "updated_at": "2026-07-28T10:38:58Z",
+      "topics": []
+    },
+    {
+      "name": "Sieve",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-07-25T13:19:51Z",
+      "updated_at": "2026-07-25T13:20:17Z",
+      "topics": []
+    },
+    {
+      "name": "airbn",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-07-22T09:26:14Z",
+      "updated_at": "2026-07-22T09:27:40Z",
+      "topics": []
+    },
+    {
+      "name": "openlake",
+      "description": "OpenLake is a high performance storage engine for efficient LLM inference and GPU Training",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-07-11T11:03:50Z",
+      "updated_at": "2026-07-11T19:51:20Z",
+      "topics": []
+    },
+    {
+      "name": "airbnx",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2026-07-08T23:32:47Z",
+      "updated_at": "2026-07-08T23:33:56Z",
+      "topics": []
+    },
+    {
+      "name": "AI-Recruiter-Ranking-Engine",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-06-29T06:36:45Z",
+      "updated_at": "2026-06-29T06:36:49Z",
+      "topics": []
+    },
+    {
+      "name": "Trading-App",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-06-28T17:59:24Z",
+      "updated_at": "2026-06-28T17:59:27Z",
+      "topics": []
+    },
+    {
+      "name": "MEME-Generator",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-06-24T11:14:03Z",
+      "updated_at": "2026-06-24T11:14:06Z",
+      "topics": []
+    },
+    {
+      "name": "camera-control-app",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-06-21T17:28:56Z",
+      "updated_at": "2026-06-21T17:29:00Z",
+      "topics": []
+    },
+    {
+      "name": "Blindspot",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-06-05T15:50:08Z",
+      "updated_at": "2026-06-05T15:50:13Z",
+      "topics": []
+    },
+    {
+      "name": "why-aditi",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2026-04-18T18:25:53Z",
+      "updated_at": "2026-04-18T18:25:58Z",
+      "topics": []
+    },
+    {
+      "name": "RedFlag",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-04-08T19:45:58Z",
+      "updated_at": "2026-04-08T19:46:07Z",
+      "topics": []
+    },
+    {
+      "name": "Supplyguard",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-03-29T16:58:06Z",
+      "updated_at": "2026-03-29T16:58:09Z",
+      "topics": []
+    },
+    {
+      "name": "Tavus-Streaming",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-03-03T14:25:23Z",
+      "updated_at": "2026-03-03T14:25:26Z",
+      "topics": []
+    },
+    {
+      "name": "HeyGen-Streaming",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-03-03T13:27:45Z",
+      "updated_at": "2026-03-03T13:28:32Z",
+      "topics": []
+    },
+    {
+      "name": "FlowDesk",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-03-01T18:36:46Z",
+      "updated_at": "2026-03-01T18:36:50Z",
+      "topics": []
+    },
+    {
+      "name": "Quackwatch",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-11-28T22:32:42Z",
+      "updated_at": "2025-11-28T22:32:45Z",
+      "topics": []
+    },
+    {
+      "name": "MindFlow",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-09-26T08:33:57Z",
+      "updated_at": "2025-09-26T08:34:00Z",
+      "topics": []
+    },
+    {
+      "name": "Notion-Integration-OAuth",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-09-03T08:20:20Z",
+      "updated_at": "2025-09-03T08:20:23Z",
+      "topics": []
+    },
+    {
+      "name": "Hubspot-chatbot",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-08-21T10:09:48Z",
+      "updated_at": "2025-08-28T08:57:15Z",
+      "topics": []
+    },
+    {
+      "name": "YouTube-Videos-Fetcher",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-06-10T19:51:25Z",
+      "updated_at": "2025-06-10T19:51:28Z",
+      "topics": []
+    },
+    {
+      "name": "Content-Management-System",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-06-01T16:51:56Z",
+      "updated_at": "2025-06-01T16:51:59Z",
+      "topics": []
+    },
+    {
+      "name": "ChatInsight",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-05-24T15:32:24Z",
+      "updated_at": "2025-05-24T15:32:27Z",
+      "topics": []
+    },
+    {
+      "name": "Webhook-Delivery-Service",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-04-29T18:50:48Z",
+      "updated_at": "2025-04-29T18:50:52Z",
+      "topics": []
+    },
+    {
+      "name": "Chatbot",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-04-22T16:34:49Z",
+      "updated_at": "2025-04-22T16:34:53Z",
+      "topics": []
+    },
+    {
+      "name": "Form",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-04-14T08:34:55Z",
+      "updated_at": "2025-04-14T08:34:59Z",
+      "topics": []
+    },
+    {
+      "name": "RAG",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-04-08T09:19:20Z",
+      "updated_at": "2025-04-08T09:19:23Z",
+      "topics": []
+    },
+    {
+      "name": "BgRemover",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-03-21T10:22:35Z",
+      "updated_at": "2025-03-21T10:22:39Z",
+      "topics": []
+    },
+    {
+      "name": "Diabetic-Retinopathy",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2025-03-13T23:41:34Z",
+      "updated_at": "2025-03-13T23:41:38Z",
+      "topics": []
+    },
+    {
+      "name": "Zoom-Clone",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-03-13T23:38:51Z",
+      "updated_at": "2025-03-13T23:38:55Z",
+      "topics": []
+    },
+    {
+      "name": "Financial-Advisory",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-03-13T23:21:22Z",
+      "updated_at": "2025-03-13T23:21:25Z",
+      "topics": []
+    },
+    {
+      "name": "Donezo",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-03-13T22:58:58Z",
+      "updated_at": "2025-03-13T22:59:02Z",
+      "topics": []
+    },
+    {
+      "name": "FormUp",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-03-13T14:40:53Z",
+      "updated_at": "2025-03-13T14:40:57Z",
+      "topics": []
+    },
+    {
+      "name": "FR-Attendance-System",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-02-22T09:32:16Z",
+      "updated_at": "2025-02-22T09:32:20Z",
+      "topics": []
+    },
+    {
+      "name": "Clinical-Trials-Similarity-Search",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2025-01-26T18:20:00Z",
+      "updated_at": "2025-01-26T18:20:03Z",
+      "topics": []
+    },
+    {
+      "name": "Push-Notif",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-12-24T09:46:15Z",
+      "updated_at": "2024-12-24T09:46:19Z",
+      "topics": []
+    },
+    {
+      "name": "Movie-Recommendation-System-CPP",
+      "description": null,
+      "language": "C++",
+      "fork": false,
+      "pushed_at": "2024-12-10T19:22:45Z",
+      "updated_at": "2024-12-10T19:23:39Z",
+      "topics": []
+    },
+    {
+      "name": "Time-Series-Flask-Analysis",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-12-04T09:54:19Z",
+      "updated_at": "2024-12-04T09:54:23Z",
+      "topics": []
+    },
+    {
+      "name": "Postman-Challenge",
+      "description": "This is the all in one place for documentation help regarding the postman challenge. ",
+      "language": "JavaScript",
+      "fork": true,
+      "pushed_at": "2024-11-08T15:46:31Z",
+      "updated_at": "2024-11-08T15:46:43Z",
+      "topics": []
+    },
+    {
+      "name": "METAVERSE",
+      "description": "\ud83d\ude80 Welcome to our GitHub repository, Officially accepted for GSSOC'24 \ud83c\udf1f& SSOC'24\ud83c\udf1f Explore a dynamic collection of front-end projects, powered by HTML, CSS, JavaScript, and React. Join our community to contribute your creations \ud83c\udfa8, add features \ud83d\udee0\ufe0f, or squash bugs \ud83d\udc1b in existing projects. ",
+      "language": "CSS",
+      "fork": true,
+      "pushed_at": "2024-07-07T22:03:19Z",
+      "updated_at": "2024-07-07T22:03:28Z",
+      "topics": []
+    },
+    {
+      "name": "ML-Crate",
+      "description": "ML-Crate stands as the ultimate hub for a multitude of exciting ML projects, serving as the go-to resource haven for passionate and dedicated ML enthusiasts!\ud83c\udf1f\ud83d\udcab Devfolio URL, https://devfolio.co/projects/mlcrate-98f9",
+      "language": "Jupyter Notebook",
+      "fork": true,
+      "pushed_at": "2024-06-30T06:45:22Z",
+      "updated_at": "2024-06-30T06:45:25Z",
+      "topics": []
+    },
+    {
+      "name": "FoodVision",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2024-05-17T15:06:51Z",
+      "updated_at": "2024-05-17T15:06:55Z",
+      "topics": []
+    }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-10T10:03:31Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-10T08:22:49Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-10T07:42:53Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-04T20:58:44Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-04T21:35:14Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-04T20:42:03Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-04T21:05:19Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-04T07:11:07Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-04T20:06:32Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-04T19:28:34Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-03T13:03:57Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-03T11:59:32Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-04T20:46:26Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-04T20:35:37Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-03T07:52:54Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-03T12:59:13Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T22:09:51Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-03T13:53:10Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-03T13:48:22Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T19:14:43Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T14:00:32Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T17:04:29Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-01T22:07:37Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-01T22:24:18Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T17:40:44Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T19:50:21Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T18:12:36Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T17:57:23Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T17:14:09Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-30T17:26:50Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-29T19:35:25Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-29T17:27:34Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-29T14:59:03Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-29T19:51:01Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-29T17:48:58Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-29T15:48:15Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-29T20:31:11Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T19:49:29Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T19:31:20Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T19:11:29Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T19:19:21Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T20:12:19Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-28T17:19:49Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T19:25:24Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T19:46:06Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T20:01:21Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T19:53:41Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T19:56:31Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T19:04:43Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-27T19:00:26Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-23T11:38:46Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-23T11:29:07Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-23T11:28:33Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-23T11:18:28Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-22T07:44:25Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-22T05:02:41Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-22T02:27:45Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-22T02:53:04Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T22:34:14Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T22:13:59Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T22:14:17Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T07:52:42Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T07:54:24Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T06:55:10Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T08:17:17Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-21T08:01:22Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-20T23:19:29Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-20T23:20:05Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-20T23:02:35Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-20T23:23:28Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-20T22:00:19Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-20T21:47:13Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-11T20:58:37Z"
+    }
+  ]
+}

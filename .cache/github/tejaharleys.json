@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 3
+  },
+  "repos": [
+    {
+      "name": "Nexora-SAAS",
+      "description": "Nexora is a production-grade SaaS analytics and telemetry platform (inspired by lightweight versions of Mixpanel/Metabase). It processes application events asynchronously at scale, visualizes insights through beautiful drag-and-drop dashboards, manages complex multi-tenant organizations, and surfaces critical system anomalies in real-time.",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-05-23T08:54:55Z",
+      "updated_at": "2026-05-23T08:54:58Z",
+      "topics": []
+    },
+    {
+      "name": "vansh",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2025-03-19T17:47:36Z",
+      "updated_at": "2025-05-03T16:03:03Z",
+      "topics": []
+    },
+    {
+      "name": "astro-supabase-starter",
+      "description": null,
+      "language": "Astro",
+      "fork": false,
+      "pushed_at": "2025-02-01T06:29:09Z",
+      "updated_at": "2025-02-01T06:29:16Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,198 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 21
+  },
+  "repos": [
+    {
+      "name": "live-city",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-04-19T13:05:54Z",
+      "updated_at": "2026-04-19T20:38:29Z",
+      "topics": []
+    },
+    {
+      "name": "zulip",
+      "description": "Zulip server and web application. Open-source team chat that helps teams stay productive and focused.",
+      "language": "Python",
+      "fork": true,
+      "pushed_at": "2025-10-30T16:23:51Z",
+      "updated_at": "2025-10-30T16:24:14Z",
+      "topics": []
+    },
+    {
+      "name": "NotesTaker",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-09-28T11:51:24Z",
+      "updated_at": "2025-09-28T11:51:27Z",
+      "topics": []
+    },
+    {
+      "name": "AssignedGD",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-09-13T08:02:36Z",
+      "updated_at": "2025-09-13T08:02:40Z",
+      "topics": []
+    },
+    {
+      "name": "LeetHub",
+      "description": "Automatically sync your leetcode solutions to your github account - top 5 trending GitHub repository",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-06-07T13:51:34Z",
+      "updated_at": "2025-09-06T20:35:11Z",
+      "topics": []
+    },
+    {
+      "name": "gdas37467",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-09-06T20:27:58Z",
+      "updated_at": "2025-09-06T20:28:01Z",
+      "topics": []
+    },
+    {
+      "name": "EventManagement",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-09-06T18:28:33Z",
+      "updated_at": "2025-09-06T18:28:36Z",
+      "topics": []
+    },
+    {
+      "name": "LogMonitoring",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-07-07T09:33:07Z",
+      "updated_at": "2025-07-07T09:33:09Z",
+      "topics": []
+    },
+    {
+      "name": "2D-verse",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-05-26T17:06:12Z",
+      "updated_at": "2025-05-26T17:06:16Z",
+      "topics": []
+    },
+    {
+      "name": "chat-app",
+      "description": "using Next, Supabase, tailwind",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2025-05-23T10:46:08Z",
+      "updated_at": "2025-05-23T10:46:11Z",
+      "topics": []
+    },
+    {
+      "name": "EcommerceTemplate-v1",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2024-11-17T21:56:46Z",
+      "updated_at": "2024-11-17T21:56:50Z",
+      "topics": []
+    },
+    {
+      "name": "smileProject",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-10-02T06:39:57Z",
+      "updated_at": "2024-09-22T09:11:27Z",
+      "topics": []
+    },
+    {
+      "name": "cms",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-09-07T19:09:07Z",
+      "updated_at": "2024-09-08T06:35:22Z",
+      "topics": []
+    },
+    {
+      "name": "week-6-web3-token-launchpad",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-09-06T13:04:08Z",
+      "updated_at": "2024-09-06T14:55:13Z",
+      "topics": []
+    },
+    {
+      "name": "cohort-assignments",
+      "description": "100xdevs-cohort",
+      "language": "JavaScript",
+      "fork": true,
+      "pushed_at": "2024-03-29T10:38:54Z",
+      "updated_at": "2024-03-29T10:39:52Z",
+      "topics": []
+    },
+    {
+      "name": "zupay",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2024-03-20T17:04:32Z",
+      "updated_at": "2024-03-19T20:24:28Z",
+      "topics": []
+    },
+    {
+      "name": "task",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-01-04T21:21:42Z",
+      "updated_at": "2024-01-04T21:22:12Z",
+      "topics": []
+    },
+    {
+      "name": "javascript-interview-questions",
+      "description": "List of 1000 JavaScript Interview Questions",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2023-12-16T17:17:31Z",
+      "updated_at": "2023-12-19T20:09:29Z",
+      "topics": []
+    },
+    {
+      "name": "wagtail",
+      "description": "A Django content management system focused on flexibility and user experience",
+      "language": "Python",
+      "fork": true,
+      "pushed_at": "2023-12-14T15:25:05Z",
+      "updated_at": "2023-12-14T07:17:27Z",
+      "topics": []
+    },
+    {
+      "name": "GrowGrove",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-10-10T08:26:16Z",
+      "updated_at": "2023-10-10T07:50:10Z",
+      "topics": []
+    },
+    {
+      "name": "CureCart",
+      "description": null,
+      "language": null,
+      "fork": true,
+      "pushed_at": "2023-07-07T09:50:06Z",
+      "updated_at": "2023-07-07T09:52:19Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

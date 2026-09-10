@@ -1,0 +1,63 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 5
+  },
+  "repos": [
+    {
+      "name": "AI-Powered-Task-Management-Portal",
+      "description": "AI-powered full-stack task management portal built with Spring Boot, React.js, MySQL, JWT authentication, and Google Gemini AI.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-08-13T06:39:09Z",
+      "updated_at": "2026-08-13T06:39:31Z",
+      "topics": []
+    },
+    {
+      "name": "smart-expense-tracker",
+      "description": "Smart Expense Tracker REST API built with Spring Boot for the Diligent ",
+      "language": "Java",
+      "fork": false,
+      "pushed_at": "2026-08-02T04:53:08Z",
+      "updated_at": "2026-08-02T04:53:47Z",
+      "topics": []
+    },
+    {
+      "name": "Portfolio",
+      "description": "Personal portfolio website showcasing my skills, projects, experience, and achievements as a Full Stack Developer.",
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2026-06-24T06:19:31Z",
+      "updated_at": "2026-06-24T06:19:35Z",
+      "topics": []
+    },
+    {
+      "name": "Book-My-Stay",
+      "description": "Developed a Full Stack accommodation booking web application using React.js (frontend), Spring Boot REST APIs (backend), and MySQL (database) with end-to-end booking functionality.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-06-13T17:01:24Z",
+      "updated_at": "2026-06-13T17:01:27Z",
+      "topics": []
+    },
+    {
+      "name": "Ecommerce-backend",
+      "description": null,
+      "language": "Java",
+      "fork": false,
+      "pushed_at": "2026-06-07T11:08:07Z",
+      "updated_at": "2026-06-07T11:08:10Z",
+      "topics": []
+    }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-13T06:39:09Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-13T06:34:23Z"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 35
+  },
+  "repos": [
+    {
+      "name": "primeform-assignment",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-09-02T14:50:35Z",
+      "updated_at": "2026-09-02T15:05:45Z",
+      "topics": []
+    },
+    {
+      "name": "wexa-ai-assignment",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-14T14:56:25Z",
+      "updated_at": "2026-08-14T14:58:12Z",
+      "topics": []
+    },
+    {
+      "name": "bandersnatch",
+      "description": "A PyPI mirror client according to PEP 381 + PEP 503 + PEP 691",
+      "language": "Python",
+      "fork": true,
+      "pushed_at": "2026-08-12T09:59:04Z",
+      "updated_at": "2026-08-12T09:59:22Z",
+      "topics": []
+    },
+    {
+      "name": "s3-uploader-service",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-07-12T08:30:37Z",
+      "updated_at": "2026-07-12T08:30:44Z",
+      "topics": []
+    },
+    {
+      "name": "trlc",
+      "description": "Treat Requirements Like Code",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2026-07-08T08:53:45Z",
+      "updated_at": "2026-05-31T10:28:44Z",
+      "topics": []
+    },
+    {
+      "name": "Major-Project",
+      "description": null,
+      "language": "TeX",
+      "fork": false,
+      "pushed_at": "2025-06-18T02:35:05Z",
+      "updated_at": "2025-06-18T02:35:08Z",
+      "topics": []
+    },
+    {
+      "name": "CSS",
+      "description": "show case my progress in learning web dev",
+      "language": "CSS",
+      "fork": false,
+      "pushed_at": "2025-05-18T15:11:56Z",
+      "updated_at": "2025-05-18T15:11:59Z",
+      "topics": []
+    },
+    {
+      "name": "MajorProjectCertGen",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2025-04-22T13:18:49Z",
+      "updated_at": "2025-04-22T13:18:53Z",
+      "topics": []
+    },
+    {
+      "name": "PHPLearnProject",
+      "description": null,
+      "language": "PHP",
+      "fork": false,
+      "pushed_at": "2025-04-07T08:49:50Z",
+      "updated_at": "2025-04-07T08:49:56Z",
+      "topics": []
+    },
+    {
+      "name": "PHPlearn",
+      "description": null,
+      "language": "PHP",
+      "fork": false,
+      "pushed_at": "2025-04-03T03:09:14Z",
+      "updated_at": "2025-04-03T03:09:18Z",
+      "topics": []
+    },
+    {
+      "name": "HTF24-Team-227",
+      "description": null,
+      "language": "JavaScript",
+      "fork": true,
+      "pushed_at": "2024-10-27T09:25:07Z",
+      "updated_at": "2024-10-27T09:25:10Z",
+      "topics": []
+    },
+    {
+      "name": "spring-boot-uploader-backend",
+      "description": null,
+      "language": "Java",
+      "fork": false,
+      "pushed_at": "2024-08-29T09:52:36Z",
+      "updated_at": "2024-08-29T09:52:39Z",
+      "topics": []
+    },
+    {
+      "name": "spring-boot-uploader-frontend",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-08-29T08:55:17Z",
+      "updated_at": "2024-08-29T08:55:20Z",
+      "topics": []
+    },
+    {
+      "name": "DDOS_DL",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-05-18T14:35:33Z",
+      "updated_at": "2024-05-18T14:35:33Z",
+      "topics": []
+    },
+    {
+      "name": "challenge-1",
+      "description": null,
+      "language": "TypeScript",
+      "fork": true,
+      "pushed_at": "2024-03-08T06:44:37Z",
+      "updated_at": "2024-03-08T06:44:42Z",
+      "topics": []
+    },
+    {
+      "name": "next-js-tut",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2024-02-05T06:18:00Z",
+      "updated_at": "2024-02-05T06:18:04Z",
+      "topics": []
+    },
+    {
+      "name": "ChatGPT-QoL",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-02-01T10:30:28Z",
+      "updated_at": "2024-02-01T07:28:39Z",
+      "topics": []
+    },
+    {
+      "name": "WebRTC-React-Frontend",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-01-21T08:20:49Z",
+      "updated_at": "2024-01-20T17:00:24Z",
+      "topics": []
+    },
+    {
+      "name": "WebRTC-React-Backend",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-01-21T08:20:22Z",
+      "updated_at": "2024-01-20T16:58:49Z",
+      "topics": []
+    },
+    {
+      "name": "WebRTC-P2P",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-01-19T14:10:37Z",
+      "updated_at": "2024-01-19T14:01:32Z",
+      "topics": []
+    },
+    {
+      "name": "CampSearchFrontend",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-12-05T15:56:52Z",
+      "updated_at": "2023-11-28T14:48:31Z",
+      "topics": []
+    },
+    {
+      "name": "CampSearchBackend",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-12-13T13:32:35Z",
+      "updated_at": "2023-11-28T14:46:34Z",
+      "topics": []
+    },
+    {
+      "name": "HTF23-Team-68",
+      "description": null,
+      "language": "JavaScript",
+      "fork": true,
+      "pushed_at": "2023-10-08T09:00:23Z",
+      "updated_at": "2023-10-08T09:00:26Z",
+      "topics": []
+    },
+    {
+      "name": "Equippy",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-10-07T18:07:41Z",
+      "updated_at": "2023-10-07T18:07:44Z",
+      "topics": []
+    },
+    {
+      "name": "ChatsyFrontend",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-09-16T14:55:40Z",
+      "updated_at": "2023-09-16T13:42:33Z",
+      "topics": []
+    },
+    {
+      "name": "ChatsyBackend",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-09-16T12:57:23Z",
+      "updated_at": "2023-09-16T12:57:26Z",
+      "topics": []
+    },
+    {
+      "name": "DuoChat",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-07-20T04:27:00Z",
+      "updated_at": "2023-07-17T06:32:34Z",
+      "topics": []
+    },
+    {
+      "name": "Co-Learn",
+      "description": "This is a co-learning platform for language learners",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-07-17T05:24:45Z",
+      "updated_at": "2023-07-16T17:12:09Z",
+      "topics": []
+    },
+    {
+      "name": "Test",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2023-07-14T14:37:28Z",
+      "updated_at": "2023-07-14T14:37:33Z",
+      "topics": []
+    },
+    {
+      "name": "PlaneSprint-Team-26",
+      "description": null,
+      "language": "EJS",
+      "fork": true,
+      "pushed_at": "2023-06-27T14:19:33Z",
+      "updated_at": "2023-06-27T14:04:40Z",
+      "topics": []
+    },
+    {
+      "name": "CBITinternship",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2023-06-05T11:13:07Z",
+      "updated_at": "2023-06-03T11:53:13Z",
+      "topics": []
+    },
+    {
+      "name": "MiniProject_MaidIt",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2023-02-16T06:15:06Z",
+      "updated_at": "2023-02-16T05:58:00Z",
+      "topics": []
+    },
+    {
+      "name": "HTF22-Team-12",
+      "description": "Team-12 Personal copy",
+      "language": "CSS",
+      "fork": true,
+      "pushed_at": "2022-10-30T08:08:32Z",
+      "updated_at": "2022-10-30T08:08:36Z",
+      "topics": []
+    },
+    {
+      "name": "HackathonCOSC",
+      "description": "repository for Hackathon",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2022-10-29T14:41:01Z",
+      "updated_at": "2022-10-29T14:41:00Z",
+      "topics": []
+    },
+    {
+      "name": "webdev",
+      "description": "my web development journey",
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2022-09-30T11:19:13Z",
+      "updated_at": "2022-09-30T11:10:57Z",
+      "topics": []
+    }
+  ],
+  "events": [
+    {
+      "type": "PushEvent",
+      "created_at": "2026-09-02T14:50:36Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-14T14:56:26Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-14T13:30:39Z"
+    },
+    {
+      "type": "PushEvent",
+      "created_at": "2026-08-12T09:59:05Z"
+    }
+  ]
+}

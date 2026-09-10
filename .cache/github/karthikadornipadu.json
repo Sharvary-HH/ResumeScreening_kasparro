@@ -1,0 +1,189 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 20
+  },
+  "repos": [
+    {
+      "name": "Diabetes-Prediction-ML",
+      "description": "Machine Learning-based Diabetes Prediction System using Random Forest, XGBoost, and Logistic Regression with a Streamlit web interface.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-06-06T11:38:18Z",
+      "updated_at": "2026-06-06T11:38:22Z",
+      "topics": []
+    },
+    {
+      "name": "hate-speech-detection-tweets-ml",
+      "description": "Detecting Hate Speech in Tweets with Advanced Machine Learning Techniques  This project uses NLP and Machine Learning to classify tweets as Hate Speech, Offensive Language, or Normal Speech.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-06-03T11:36:44Z",
+      "updated_at": "2026-06-03T11:36:48Z",
+      "topics": []
+    },
+    {
+      "name": "alpha-pulse-financial-analytics",
+      "description": "This project analyzes stock market data to measure investment risk and visualize portfolio performance using Python and dashboards.",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2026-05-15T06:17:24Z",
+      "updated_at": "2026-05-15T06:17:29Z",
+      "topics": []
+    },
+    {
+      "name": "product-listing-page",
+      "description": "A modern, responsive Product Listing Page (PLP) built with Next.js 16, React 19, and CSS. This project demonstrates server-side rendering (SSR), responsive design, SEO optimization, and clean code architecture.",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-03-29T16:19:37Z",
+      "updated_at": "2026-03-29T16:19:40Z",
+      "topics": []
+    },
+    {
+      "name": "retail-analytics-rfm-analysis",
+      "description": "Retail analytics project that analyzes sales data using RFM analysis to understand customer behavior and generate business insights.",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2026-03-26T06:13:24Z",
+      "updated_at": "2026-03-26T06:13:29Z",
+      "topics": []
+    },
+    {
+      "name": "user-management-api",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-03-25T16:25:27Z",
+      "updated_at": "2026-03-25T16:25:38Z",
+      "topics": []
+    },
+    {
+      "name": "user-directory-dashboard",
+      "description": "User Directory Dashboard is a React-based web application that displays user information fetched from an external API. The application provides search, sorting, and detailed user view functionality.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-03-25T13:44:15Z",
+      "updated_at": "2026-03-25T13:44:18Z",
+      "topics": []
+    },
+    {
+      "name": "react-native-for-metal-prices",
+      "description": null,
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2026-03-23T06:32:33Z",
+      "updated_at": "2026-03-23T06:46:35Z",
+      "topics": []
+    },
+    {
+      "name": "trade-api",
+      "description": "A FastAPI-based service that leverages Google Gemini AI and real-time web search to generate deep market analysis reports and trade opportunity insights for specific sectors in India.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-03-18T07:22:37Z",
+      "updated_at": "2026-03-18T07:22:40Z",
+      "topics": []
+    },
+    {
+      "name": "dentist-appointment",
+      "description": "Dentist appointment booking platform built with React, Node.js, and Express. Users can book, view, and delete appointments.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-03-17T17:55:50Z",
+      "updated_at": "2026-03-17T17:55:53Z",
+      "topics": []
+    },
+    {
+      "name": "genai-chat-assistant",
+      "description": null,
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2026-03-08T13:50:49Z",
+      "updated_at": "2026-03-08T13:50:52Z",
+      "topics": []
+    },
+    {
+      "name": "Music-Recommendation-System",
+      "description": "This project is a Music Recommendation System built using Machine Learning and deployed with Streamlit. It uses Collaborative Filtering with the SVD algorithm from the Surprise library to recommend music based on user preferences. The system suggests songs based on the similarity of users' listening habits and ratings.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-03-24T14:13:18Z",
+      "updated_at": "2025-04-12T14:37:54Z",
+      "topics": []
+    },
+    {
+      "name": "Black-Friday-Sales-Prediction",
+      "description": "This project analyzes Black Friday sales data to predict purchasing trends using machine learning techniques. It includes data preprocessing, visualization, feature engineering, and predictive modeling using Python.",
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-03-12T12:15:08Z",
+      "updated_at": "2025-03-12T11:50:05Z",
+      "topics": []
+    },
+    {
+      "name": "BloodDonationProject",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2025-02-06T13:03:00Z",
+      "updated_at": "2025-02-06T12:58:58Z",
+      "topics": []
+    },
+    {
+      "name": "mnist-classification",
+      "description": "\"This repository contains code for handwritten digit recognition using machine learning and deep learning algorithms on the MNIST dataset.\"",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-01-07T14:43:31Z",
+      "updated_at": "2025-01-07T14:44:22Z",
+      "topics": []
+    },
+    {
+      "name": "big-game-census-data-analytics",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2024-06-07T09:48:43Z",
+      "updated_at": "2025-01-07T04:38:13Z",
+      "topics": []
+    },
+    {
+      "name": "house-price-prediction",
+      "description": "This project uses machine learning to predict the price of a house based on various features like the number of bedrooms, bathrooms, and square footage of the living area. The goal of the project is to create a simple but effective model that can predict house prices accurately, making use of widely available real estate data.",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-01-07T03:32:45Z",
+      "updated_at": "2025-01-07T03:32:48Z",
+      "topics": []
+    },
+    {
+      "name": "task_management_app",
+      "description": "\"Task management App for managing tasks with priorities and recommendations\"",
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2025-01-06T10:12:01Z",
+      "updated_at": "2025-01-06T10:12:04Z",
+      "topics": []
+    },
+    {
+      "name": "fifa-world-cup-analysisi",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2024-06-07T09:41:53Z",
+      "updated_at": "2024-06-07T09:41:56Z",
+      "topics": []
+    },
+    {
+      "name": "amazon-sales-analysis",
+      "description": null,
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "pushed_at": "2024-06-07T09:32:58Z",
+      "updated_at": "2024-06-07T09:33:02Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}

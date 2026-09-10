@@ -1,0 +1,279 @@
+{
+  "status": "ok",
+  "user": {
+    "public_repos": 30
+  },
+  "repos": [
+    {
+      "name": "bug-tracker",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-25T14:25:27Z",
+      "updated_at": "2026-08-25T14:44:28Z",
+      "topics": []
+    },
+    {
+      "name": "gen-ai-nxtwave",
+      "description": null,
+      "language": "Python",
+      "fork": false,
+      "pushed_at": "2026-08-06T06:39:19Z",
+      "updated_at": "2026-08-06T06:41:06Z",
+      "topics": []
+    },
+    {
+      "name": "sasta-signals",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2026-05-02T05:35:24Z",
+      "updated_at": "2026-05-02T05:35:27Z",
+      "topics": []
+    },
+    {
+      "name": "jobscore-pro",
+      "description": "A chrome extension to display the user profile matching score against the job profile",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2025-12-04T15:02:36Z",
+      "updated_at": "2025-12-04T15:02:40Z",
+      "topics": []
+    },
+    {
+      "name": "free-for-life",
+      "description": "A massive list including a huge amount of products and services that are completely free!",
+      "language": null,
+      "fork": true,
+      "pushed_at": "2024-11-05T08:20:57Z",
+      "updated_at": "2024-12-25T05:33:47Z",
+      "topics": []
+    },
+    {
+      "name": "triggered-exe",
+      "description": null,
+      "language": null,
+      "fork": false,
+      "pushed_at": "2024-05-14T08:43:10Z",
+      "updated_at": "2024-05-14T08:43:13Z",
+      "topics": []
+    },
+    {
+      "name": "todos",
+      "description": "ToDo using supabase and gen AI integration",
+      "language": "TypeScript",
+      "fork": false,
+      "pushed_at": "2024-04-18T06:19:10Z",
+      "updated_at": "2024-04-30T09:54:28Z",
+      "topics": []
+    },
+    {
+      "name": "video-stream",
+      "description": null,
+      "language": "Vue",
+      "fork": false,
+      "pushed_at": "2024-04-26T12:03:56Z",
+      "updated_at": "2024-04-30T09:50:13Z",
+      "topics": []
+    },
+    {
+      "name": "social-media",
+      "description": "a social media website made usign mern stack.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2024-03-31T11:48:24Z",
+      "updated_at": "2024-04-30T08:56:31Z",
+      "topics": []
+    },
+    {
+      "name": "E-Commerce",
+      "description": "E commerce website using react and firebase .",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-10-23T04:37:55Z",
+      "updated_at": "2024-04-20T05:31:51Z",
+      "topics": []
+    },
+    {
+      "name": "nuxt-training",
+      "description": null,
+      "language": "Vue",
+      "fork": false,
+      "pushed_at": "2024-02-09T12:31:47Z",
+      "updated_at": "2024-02-12T06:42:18Z",
+      "topics": []
+    },
+    {
+      "name": "movies-search-Mantra-Group",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-12-19T11:37:54Z",
+      "updated_at": "2024-01-31T15:00:32Z",
+      "topics": []
+    },
+    {
+      "name": "edviron-test-1",
+      "description": "this is a repo for edviron assignment",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-10-10T03:07:47Z",
+      "updated_at": "2023-12-17T06:40:22Z",
+      "topics": []
+    },
+    {
+      "name": "music-player",
+      "description": "music player frontend",
+      "language": "HTML",
+      "fork": false,
+      "pushed_at": "2023-06-23T13:08:48Z",
+      "updated_at": "2023-12-10T17:10:41Z",
+      "topics": []
+    },
+    {
+      "name": "Issue-Tracker",
+      "description": "application to track issues/bugs for a project",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-12-10T17:05:00Z",
+      "updated_at": "2023-12-10T16:44:00Z",
+      "topics": []
+    },
+    {
+      "name": "CSV-Upload",
+      "description": "upload and view csv files",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-12-10T16:38:11Z",
+      "updated_at": "2023-12-10T16:03:38Z",
+      "topics": []
+    },
+    {
+      "name": "Konnect",
+      "description": "A social media website ",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-11-26T15:14:26Z",
+      "updated_at": "2023-11-26T15:16:47Z",
+      "topics": []
+    },
+    {
+      "name": "easy-recipe",
+      "description": "a react app to view recipes nutrition value from thousands of available data.",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-11-26T14:36:14Z",
+      "updated_at": "2023-11-26T13:38:59Z",
+      "topics": []
+    },
+    {
+      "name": "ecommerce-react-redux",
+      "description": "e commerce using react redux and firebase",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-11-07T08:02:40Z",
+      "updated_at": "2023-11-25T13:23:20Z",
+      "topics": []
+    },
+    {
+      "name": "e-learning-platform",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-10-19T06:46:42Z",
+      "updated_at": "2023-10-19T06:46:16Z",
+      "topics": []
+    },
+    {
+      "name": "photofolio",
+      "description": "react app to save and view images ",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-10-18T07:17:46Z",
+      "updated_at": "2023-10-18T07:05:06Z",
+      "topics": []
+    },
+    {
+      "name": "hospital-api",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-09-22T09:07:18Z",
+      "updated_at": "2023-09-18T12:38:11Z",
+      "topics": []
+    },
+    {
+      "name": "SuperHeroHunt",
+      "description": "search superhero from marvel api and store them",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2023-07-25T06:46:37Z",
+      "updated_at": "2023-07-25T06:17:37Z",
+      "topics": []
+    },
+    {
+      "name": "triggered-exe.github.io",
+      "description": "personal portfolio",
+      "language": "CSS",
+      "fork": false,
+      "pushed_at": "2023-09-22T08:56:02Z",
+      "updated_at": "2022-12-25T09:17:20Z",
+      "topics": []
+    },
+    {
+      "name": "DEX-like-uniswap",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2022-11-19T07:56:16Z",
+      "updated_at": "2022-11-19T08:00:33Z",
+      "topics": []
+    },
+    {
+      "name": "DAO-for-NFT-purchase",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2022-11-07T13:08:50Z",
+      "updated_at": "2022-11-07T13:11:19Z",
+      "topics": []
+    },
+    {
+      "name": "ICO",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2022-10-30T09:09:47Z",
+      "updated_at": "2022-10-29T16:18:50Z",
+      "topics": []
+    },
+    {
+      "name": "NFT-Collection",
+      "description": null,
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2022-10-24T04:26:15Z",
+      "updated_at": "2022-10-24T04:09:13Z",
+      "topics": []
+    },
+    {
+      "name": "Whitelist-Dapp",
+      "description": "whitelisting nft Dapp",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2022-10-20T06:50:45Z",
+      "updated_at": "2022-10-20T05:41:32Z",
+      "topics": []
+    },
+    {
+      "name": "basic-nft",
+      "description": "simple nft contract on solidity using hardhat",
+      "language": "JavaScript",
+      "fork": false,
+      "pushed_at": "2022-10-10T08:24:02Z",
+      "updated_at": "2022-10-10T08:24:08Z",
+      "topics": []
+    }
+  ],
+  "events": []
+}
