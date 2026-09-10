@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 24,\n  \"cloud_fullstack\": 14,\n  \"engineering_depth\": 5,\n  \"penalties\": [],\n  \"project_summary\": \"Built Construct IDE, an AI-native teaching environment utilizing LangGraph, Prisma, and PostgreSQL, alongside Decipath AI, a full-stack roadmap-generation SaaS leveraging agentic web search and React Flow.\",\n  \"strengths\": [\n    \"Strong hands-on experience with LangGraph and agentic workflows in Construct IDE\",\n    \"Solid production internship experience featuring CI/CD, feature flags, and robust messaging queues using QStash and Redis\",\n    \"Experience building a FastAPI and SQLite backend alongside AI receipt parsing for a React Native mobile application\"\n  ],\n  \"concerns\": [\n    \"Primary backend stack in internships leans towards Node.js/NestJS and TypeScript rather than heavy Python backend systems\"\n  ]\n}"
+}

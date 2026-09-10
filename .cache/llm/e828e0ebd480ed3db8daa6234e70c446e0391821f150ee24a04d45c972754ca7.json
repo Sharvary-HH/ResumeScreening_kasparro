@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 25,\n  \"python_backend\": 22,\n  \"cloud_fullstack\": 10,\n  \"engineering_depth\": 2,\n  \"penalties\": [],\n  \"project_summary\": \"Built an AI-driven CRM system converting natural language to structured data using LangGraph and FastAPI, alongside a secure task management application with PostgreSQL and JWT authentication.\",\n  \"strengths\": [\n    \"Experience building agentic workflows using LangGraph and FastAPI\",\n    \"Solid backend integration experience with Python, FastAPI, and PostgreSQL\",\n    \"Practical internship experience working on full-stack and AI-powered applications\"\n  ],\n  \"concerns\": [\n    \"Limited evidence of advanced engineering practices like testing, caching, or observability\",\n    \"Self-assessed LLM skills noted as basic\"\n  ]\n}"
+}

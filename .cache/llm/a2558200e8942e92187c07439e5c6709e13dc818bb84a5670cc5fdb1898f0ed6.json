@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 38,\n  \"python_backend\": 28,\n  \"cloud_fullstack\": 14,\n  \"engineering_depth\": 5,\n  \"penalties\": [],\n  \"project_summary\": \"Built sophisticated AI systems including an adaptive multi-agent RAG research platform using LangGraph, pgvector, and self-correction nodes, alongside an asynchronous multimodal AI pipeline orchestrated with Celery, Redis, and FastAPI.\",\n  \"strengths\": [\n    \"Deep implementation of complex AI architectures including multi-agent pipelines with LangGraph and hallucination detection\",\n    \"Strong Python backend experience with FastAPI, Celery, and async workflows\",\n    \"Solid production and internship experience involving Docker, Kubernetes, and AWS deployments\",\n    \"Good engineering practices shown through caching, rate limiting, and robust serialization\"\n  ],\n  \"concerns\": []\n}"
+}

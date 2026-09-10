@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 28,\n  \"python_backend\": 18,\n  \"cloud_fullstack\": 6,\n  \"engineering_depth\": 2,\n  \"penalties\": [],\n  \"project_summary\": \"Built a RAG pipeline for insurance policy documents utilizing LlamaParse, vector databases, and LangChain/LlamaIndex during an internship, alongside custom ML pipelines and automated agents.\",\n  \"strengths\": [\n    \"Practical internship experience building real RAG and NLP pipelines\",\n    \"Strong mix of traditional machine learning and modern LLM orchestration tools\",\n    \"Familiarity with embedding models, vector stores, and framework tooling like LangChain and LlamaIndex\"\n  ],\n  \"concerns\": [\n    \"Limited evidence of advanced backend architecture (e.g., caching, queues, concurrency handling)\",\n    \"Projects and internships rely on SQLite rather than production-grade databases like PostgreSQL or Redis\"\n  ]\n}"
+}

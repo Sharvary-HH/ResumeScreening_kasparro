@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 24,\n  \"cloud_fullstack\": 11,\n  \"engineering_depth\": 3,\n  \"penalties\": [],\n  \"project_summary\": \"Built multi-agent and workflow-driven AI systems including PR Sentinel using LangGraph, a real-time voice assistant with STT and vector search, and an enterprise RFP automation platform at NTT Data.\",\n  \"strengths\": [\n    \"Hands-on experience with advanced AI orchestration tools like LangGraph and CrewAI\",\n    \"Shipped end-to-end full-stack AI and backend solutions using FastAPI and React\",\n    \"Professional experience building enterprise AI applications at NTT Data\"\n  ],\n  \"concerns\": [\n    \"Limited explicit mention of comprehensive testing or observability practices\"\n  ]\n}"
+}

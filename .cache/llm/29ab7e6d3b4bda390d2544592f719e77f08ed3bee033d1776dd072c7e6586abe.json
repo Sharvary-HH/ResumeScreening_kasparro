@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 0,\n  \"python_backend\": 8,\n  \"cloud_fullstack\": 5,\n  \"engineering_depth\": 0,\n  \"penalties\": [\n    {\n      \"reason\": \"AI is mentioned in skills or coursework, but no AI project is present in the profile.\",\n      \"points\": 10\n    }\n  ],\n  \"project_summary\": \"Built a meta-heuristic scheduling algorithm in Python and a responsive web frontend named AskEditor, alongside data analysis experience cleaning 2M+ records using SQL and Python.\",\n  \"strengths\": [\n    \"Experience handling larger datasets (2M+ records) with Python and SQL\",\n    \"Familiarity with frontend technologies like React.js and REST APIs\"\n  ],\n  \"concerns\": [\n    \"Complete lack of AI/LLM projects or coursework evidence\",\n    \"No evidence of modern backend frameworks like FastAPI or Django\",\n    \"No production deployment or rigorous engineering practices mentioned\"\n  ]\n}"
+}

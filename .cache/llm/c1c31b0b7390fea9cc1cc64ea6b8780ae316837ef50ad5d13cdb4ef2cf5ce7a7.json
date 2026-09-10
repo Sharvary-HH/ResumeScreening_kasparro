@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 25,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 4,\n  \"penalties\": [],\n  \"project_summary\": \"Built tool-augmented AI agents using LangGraph and vector databases for law enforcement platforms at Staqu Technologies, alongside backend development experience with Django, FastAPI, and Flask.\",\n  \"strengths\": [\n    \"Real-world experience engineering tool-augmented AI agents with LangGraph\",\n    \"Strong backend background with Django, FastAPI, and Flask\",\n    \"Familiarity with enterprise tech stacks including Kafka, Airflow, and multiple databases\"\n  ],\n  \"concerns\": [\n    \"Limited personal AI projects listed outside of professional experience\"\n  ]\n}"
+}

@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 22,\n  \"python_backend\": 18,\n  \"cloud_fullstack\": 8,\n  \"engineering_depth\": 2,\n  \"penalties\": [],\n  \"project_summary\": \"Built a full-stack automated evaluation system integrating LLaMA for feedback generation, alongside a pantry management app with Django and a CNN-based handwritten digit recognition model.\",\n  \"strengths\": [\n    \"Hackathon win at Sequoia automating workflows with AI-driven systems\",\n    \"Experience building multi-module applications using Django, FastAPI, and React\",\n    \"Practical machine learning experience with CNNs and TensorFlow\"\n  ],\n  \"concerns\": [\n    \"No GitHub link provided to verify code quality and architecture\",\n    \"Limited evidence of advanced AI engineering patterns like RAG, agents, or orchestration\"\n  ]\n}"
+}

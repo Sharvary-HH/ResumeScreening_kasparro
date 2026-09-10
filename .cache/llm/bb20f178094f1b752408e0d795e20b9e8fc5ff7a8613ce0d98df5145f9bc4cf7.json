@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 5,\n  \"python_backend\": 15,\n  \"cloud_fullstack\": 8,\n  \"engineering_depth\": 1,\n  \"penalties\": [],\n  \"project_summary\": \"Built a Django REST framework property management backend, an RShiny Uber data analysis dashboard, and a Streamlit-based CNN waste image classification app.\",\n  \"strengths\": [\n    \"Experience with Django REST framework for backend development\",\n    \"Familiarity with containerization tools like Docker and CI/CD via Jenkins\",\n    \"Completed practical projects spanning web development, data analysis, and basic deep learning\"\n  ],\n  \"concerns\": [\n    \"No modern AI/LLM experience (agents, RAG, or tool calling)\",\n    \"Internship experience consists of a basic console-based ATM project\",\n    \"Lack of advanced backend patterns or comprehensive engineering depth\"\n  ]\n}"
+}

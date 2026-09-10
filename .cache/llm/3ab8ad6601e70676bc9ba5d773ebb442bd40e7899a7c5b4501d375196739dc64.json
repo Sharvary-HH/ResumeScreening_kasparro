@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 25,\n  \"python_backend\": 22,\n  \"cloud_fullstack\": 10,\n  \"engineering_depth\": 3,\n  \"penalties\": [],\n  \"project_summary\": \"Built an AI-powered resume screening tool using BERT embeddings and Django REST, alongside a multimodal deepfake detection system with a thread-safe FastAPI async backend and Vision Transformers.\",\n  \"strengths\": [\n    \"Experience with both Django REST and FastAPI for backend implementation\",\n    \"Applied AI projects featuring semantic matching with BERT and multimodal deepfake detection with ViT\",\n    \"Includes concurrency and async handling in project design\"\n  ],\n  \"concerns\": [\n    \"Internship experience is brief and focused more on traditional analytics and basic ML classification rather than complex backend or AI system engineering\"\n  ]\n}"
+}

@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 22,\n  \"python_backend\": 15,\n  \"cloud_fullstack\": 6,\n  \"engineering_depth\": 1,\n  \"penalties\": [],\n  \"project_summary\": \"The candidate built a CNN-based Skin Cancer Detection system and participated in developing an AI-based attendance platform utilizing CCTV-based face recognition with FastAPI and YOLOv8-Face.\",\n  \"strengths\": [\n    \"Experience with computer vision models like YOLOv8-Face and InsightFace in an internship setting\",\n    \"Familiarity with Python web frameworks like FastAPI\",\n    \"Hands-on ML experience via a CNN-based skin cancer detection project\"\n  ],\n  \"concerns\": [\n    \"Lack of advanced AI systems such as LLM agents, RAG, or stateful orchestration\",\n    \"Limited evidence of cloud deployment or modern CI/CD pipelines\",\n    \"No GitHub link provided to verify code quality and architecture\"\n  ]\n}"
+}

@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 35,\n  \"python_backend\": 25,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 4,\n  \"penalties\": [],\n  \"project_summary\": \"Built an advanced agentic RAG assistant featuring a state-managed LangGraph StateGraph persisted in Redis and hybrid search with Elasticsearch, alongside production experience unifying LangGraph agents with shared mutation layers at Spiral Kite Labs.\",\n  \"strengths\": [\n    \"Deep implementation of LangGraph state management with Redis check-pointing\",\n    \"Solid backend integration experience using FastAPI and hybrid Elasticsearch retrieval\",\n    \"Real-world professional exposure integrating agents with application mutation layers at Spiral Kite Labs\"\n  ],\n  \"concerns\": [\n    \"Electrical Engineering background with no formal CS degree (though heavily offset by strong project and work evidence)\"\n  ]\n}"
+}
