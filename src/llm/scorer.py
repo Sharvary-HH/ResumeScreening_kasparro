@@ -1,8 +1,7 @@
-"""CandidateProfile -> LLMScores.
+"""CandidateProfile -> LLMScores. Eligible candidates only.
 
-Runs on eligible candidates only. The model assigns sub-scores with evidence;
-every piece of arithmetic (totals, clamping, penalties) happens in
-src/screening/ranking.py. The model is a judge of substance, not a calculator.
+The model assigns sub-scores with evidence; all arithmetic happens in
+screening/ranking.py. The model is a judge of substance, not a calculator.
 """
 import json
 from typing import List, Optional
@@ -59,8 +58,7 @@ Return only JSON matching this schema:
 
 
 def _profile_digest(profile: CandidateProfile) -> str:
-    """A compact view of the profile. Contact details are irrelevant to scoring
-    and only add tokens, so they are left out."""
+    """Contact details are irrelevant to scoring and only add tokens."""
     payload = {
         "skills": profile.skills,
         "projects": [p.model_dump() for p in profile.projects],

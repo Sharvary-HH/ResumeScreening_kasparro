@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 22,\n  \"python_backend\": 20,\n  \"cloud_fullstack\": 8,\n  \"engineering_depth\": 2,\n  \"penalties\": [],\n  \"project_summary\": \"Built basic ML and NLP document projects, along with professional experience integrating Nvidia NIM LLM and Tesseract OCR into Django-backed applications.\",\n  \"strengths\": [\n    \"Experience with LangChain, LangGraph, and Nvidia NIM LLMs\",\n    \"Practical backend work using Django and FastAPI\",\n    \"Exposure to OCR and geographic/mapping technologies in professional setting\"\n  ],\n  \"concerns\": [\n    \"Projects section lists high-level ML classifiers and NLP pipelines without deep architectural details\",\n    \"Limited evidence of advanced engineering practices like testing or caching\"\n  ]\n}"
+}

@@ -1,7 +1,4 @@
-"""Scoring arithmetic, GitHub thresholds, and ranking order.
-
-All pure functions - no network, no LLM.
-"""
+"""Scoring arithmetic, GitHub thresholds, and ranking order - all pure functions."""
 from datetime import datetime, timedelta, timezone
 
 import pytest

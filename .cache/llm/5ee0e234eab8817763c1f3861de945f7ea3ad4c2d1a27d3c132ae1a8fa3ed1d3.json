@@ -1,4 +1,0 @@
-{
-  "model": "gemini-flash-lite-latest",
-  "content": "{\n  \"ai_project_depth\": 24,\n  \"python_backend\": 15,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 3,\n  \"penalties\": [],\n  \"project_summary\": \"Built an AI Workflow Orchestration Engine utilizing NestJS, Apache Kafka, PostgreSQL, Redis, and multi-model LLM integrations, alongside professional experience developing backend services and integrations using Python (Flask), Node.js, and ASP.NET.\",\n  \"strengths\": [\n    \"Experience building distributed event-driven systems with Apache Kafka and Redis\",\n    \"Solid backend engineering experience using NestJS and ASP.NET Core\",\n    \"Hands-on work with RAG and multi-step LLM pipelines\"\n  ],\n  \"concerns\": [\n    \"Primary backend and professional experience leans heavily on Node.js/TypeScript and C#/.NET rather than Python\",\n    \"Python experience is limited to an earlier internship at Crest Data using Flask\"\n  ]\n}"
-}

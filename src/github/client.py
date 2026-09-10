@@ -1,10 +1,8 @@
 """GitHub enrichment, worth up to 10 points.
 
-Two rules govern this module:
-  1. Scoring is deterministic Python against fixed thresholds, so the same
-     profile always yields the same points and the thresholds are unit testable.
-  2. It fails soft. Every failure path returns a GitHubEnrichment with total=0
-     and a descriptive status. Nothing here raises into the pipeline.
+Scoring is deterministic against fixed thresholds, so the same profile always
+yields the same points and the boundaries are unit-testable. Every failure path
+returns total=0 with a descriptive status; nothing here raises.
 """
 import json
 from datetime import datetime, timezone
@@ -155,7 +153,7 @@ def _cache_write(username: str, payload: Dict[str, Any]) -> None:
 
 
 def _fetch(username: str, use_cache: bool) -> Tuple[str, Dict[str, Any]]:
-    """Return (status, payload). Status is one of ok/not_found/rate_limited/error."""
+    """Returns (status, payload): ok | not_found | rate_limited | error."""
     if use_cache:
         cached = _cache_read(username)
         if cached is not None:

@@ -1,7 +1,7 @@
 """Parsing, URL normalization, and the quality gate.
 
-The PDF cases run against real corpus files, because the behaviour that matters
-here - GitHub URLs hiding in link annotations - only shows up in real PDFs.
+The PDF cases need real files: the behaviour that matters here - GitHub URLs
+hiding in link annotations - only shows up in a real PDF.
 """
 import pytest
 
@@ -17,8 +17,10 @@ from src.parser.urls import (
 )
 from tests.conftest import RESUMES
 
-pytestmark = pytest.mark.skipif(
-    not RESUMES.is_dir(), reason="resumes/ corpus not available"
+# The corpus is personal data and is not committed, so the tests that read it
+# skip on a clean clone rather than fail. Everything else still runs.
+needs_corpus = pytest.mark.skipif(
+    not any(RESUMES.glob("*.pdf")), reason="resumes/ corpus not available"
 )
 
 
@@ -93,6 +95,7 @@ def test_unrelated_next_line_is_not_glued_onto_a_url():
 # --- PDF --------------------------------------------------------------------
 
 
+@needs_corpus
 def test_github_url_recovered_from_a_pdf_link_annotation():
     # candidate_07 hyperlinks the word "GitHub" - the URL is nowhere in the
     # visible text, so a text-only parser finds nothing.
@@ -109,6 +112,7 @@ def test_github_url_recovered_from_a_pdf_link_annotation():
     assert username.lower() not in parsed.text.lower()
 
 
+@needs_corpus
 def test_pdf_with_corrupt_fonts_still_parses():
     # MuPDF logs zlib/FreeType errors for this file; the text extracts fine and
     # it must not be treated as a failure.
@@ -119,6 +123,7 @@ def test_pdf_with_corrupt_fonts_still_parses():
     assert is_usable(parsed) == (True, None)
 
 
+@needs_corpus
 def test_multi_column_resume_extracts_readable_text():
     parsed = parse_resume(RESUMES / "candidate_04.pdf")
 
@@ -177,6 +182,7 @@ def test_quality_gate_rejects_symbol_soup():
     assert "garbage" in reason
 
 
+@needs_corpus
 def test_quality_gate_accepts_a_real_resume():
     usable, reason = is_usable(parse_resume(RESUMES / "candidate_01.pdf"))
 

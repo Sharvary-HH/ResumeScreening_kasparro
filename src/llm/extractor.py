@@ -1,8 +1,7 @@
 """Resume text -> CandidateProfile.
 
-The model is asked for neutral facts and nothing else. It is never asked whether
-a candidate is eligible, qualified, or good - that decision belongs to
-src/screening/eligibility.py.
+The model is asked for neutral facts and nothing else - never whether a
+candidate is eligible or good. That belongs to screening/eligibility.py.
 """
 from typing import List, Optional
 
@@ -24,8 +23,7 @@ not mention.
 JSON schema:
 {schema}"""
 
-# Truncating keeps the request inside a sane token budget. The corpus tops out
-# around 12k characters, so in practice this only trims the longest resumes.
+# The corpus tops out around 12k characters, so this only trims the longest.
 MAX_RESUME_CHARS = 14000
 
 
@@ -58,8 +56,8 @@ def extract_profile(
     if profile is None:
         return None
 
-    # URLs are a parsing problem, not a judgment call. Whatever the model
-    # returned, the ones we pulled out of the file itself win.
+    # URLs are a parsing problem with a right answer, not a judgment call: the
+    # ones pulled out of the file itself override whatever the model returned.
     github = find_github_url(parsed.urls)
     if github:
         profile.github_url = github

@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 22,\n  \"python_backend\": 15,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 3,\n  \"penalties\": [],\n  \"project_summary\": \"Built an AI Workflow Orchestration Engine utilizing NestJS, Apache Kafka, PostgreSQL, Redis, OpenAI, and Gemini to execute multi-step LLM pipelines with RAG integration.\",\n  \"strengths\": [\n    \"Experience building distributed backend systems with event-driven architecture using Kafka and Redis\",\n    \"Professional software engineering experience including backend services and multi-tenant architectures\",\n    \"Hands-on AI project featuring workflow orchestration, multi-model support, and RAG\"\n  ],\n  \"concerns\": [\n    \"Primary backend and professional stack is focused on Node.js, NestJS, and ASP.NET rather than Python\",\n    \"Python experience is limited to a past internship role using Flask\"\n  ]\n}"
+}

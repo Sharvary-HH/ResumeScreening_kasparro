@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 24,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 3,\n  \"penalties\": [],\n  \"project_summary\": \"The candidate built an automated agent QA framework with LLM scoring during an internship, along with a voice-first artisan marketplace featuring a FastAPI and Google Gemini backend, and a custom DeepLabV3+ semantic segmentation model.\",\n  \"strengths\": [\n    \"Practical internship experience building an agent QA framework and voice AI calling system\",\n    \"Solid project implementation combining FastAPI, Google Gemini, and Next.js in Kalamitra\",\n    \"Deep learning computer vision experience with custom DeepLabV3+ and PyTorch\"\n  ],\n  \"concerns\": [\n    \"Limited evidence of advanced asynchronous Python patterns or production caching/queues in the projects\"\n  ]\n}"
+}

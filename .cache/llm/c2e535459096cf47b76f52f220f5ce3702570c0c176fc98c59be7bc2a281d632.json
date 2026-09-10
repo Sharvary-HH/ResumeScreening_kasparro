@@ -1,4 +1,0 @@
-{
-  "model": "gemini-flash-lite-latest",
-  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 25,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 3,\n  \"penalties\": [],\n  \"project_summary\": \"Built multiple production AI systems including an agent platform with dynamic UI rendering, an AI website agent platform with crawling and training pipelines, and an AI customer support platform with automated triage.\",\n  \"strengths\": [\n    \"Experience building and shipping complex AI SaaS platforms involving agents, RAG, and multi-step workflows\",\n    \"Solid backend stack with FastAPI, PostgreSQL, Redis, and async programming\",\n    \"Hands-on containerization and deployment experience using Docker, DigitalOcean, and GitHub Actions\"\n  ],\n  \"concerns\": [\n    \"Resume heavily summarizes project accomplishments with minimal explicit architectural detail per bullet\"\n  ]\n}"
-}

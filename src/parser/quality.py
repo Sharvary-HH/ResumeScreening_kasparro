@@ -1,8 +1,4 @@
-"""Text quality gate.
-
-Cheap guard that runs before we spend an LLM call on a file. A resume that
-fails here is recorded as a failed file and the batch carries on.
-"""
+"""Text quality gate - a cheap guard before we spend an LLM call on a file."""
 from typing import Optional, Tuple
 
 from src import config

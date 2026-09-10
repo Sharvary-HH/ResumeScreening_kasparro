@@ -1,4 +1,0 @@
-{
-  "model": "gemini-flash-lite-latest",
-  "content": "{\n  \"ai_project_depth\": 22,\n  \"python_backend\": 15,\n  \"cloud_fullstack\": 8,\n  \"engineering_depth\": 2,\n  \"penalties\": [],\n  \"project_summary\": \"The candidate built a RAG system using Ollama and Python for private vehicle service data, alongside a full-stack student allocation platform and an ML-based spatial gap-filling project at INCOIS.\",\n  \"strengths\": [\n    \"Practical experience with RAG and local LLMs (Ollama)\",\n    \"Domain-specific ML research internship at INCOIS\",\n    \"Full-stack student allocation platform with rule-based optimization\"\n  ],\n  \"concerns\": [\n    \"Limited depth on backend architecture frameworks like FastAPI\",\n    \"Some project descriptions use buzzword-heavy phrasing with vague implementation details\"\n  ]\n}"
-}

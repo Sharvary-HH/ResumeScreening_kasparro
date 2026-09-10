@@ -1,8 +1,7 @@
 """PDF text + link extraction with PyMuPDF.
 
-The important part here is get_links(). Most resumes in this corpus hyperlink
-the word "GitHub" instead of printing the URL, so a text-only regex sweep misses
-the majority of the profiles. See README > Design Decisions.
+get_links() is the important part: most resumes hyperlink the word "GitHub"
+instead of printing the URL, so a text-only sweep misses most profiles.
 """
 from pathlib import Path
 
@@ -11,9 +10,8 @@ import pymupdf
 from src.models import ParsedResume
 from src.parser.urls import extract_urls_from_text, merge_urls
 
-# One resume in the corpus has corrupt embedded fonts and makes MuPDF write
-# zlib/FreeType warnings straight to C-level stderr. Text still extracts fine,
-# so silence the noise rather than treating it as a failure.
+# One resume has corrupt embedded fonts and makes MuPDF write zlib/FreeType
+# warnings to C-level stderr. Text still extracts fine, so silence the noise.
 pymupdf.TOOLS.mupdf_display_errors(False)
 
 

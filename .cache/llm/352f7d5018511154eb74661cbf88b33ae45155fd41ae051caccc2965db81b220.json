@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 24,\n  \"cloud_fullstack\": 10,\n  \"engineering_depth\": 3,\n  \"penalties\": [],\n  \"project_summary\": \"Built multiple AI systems including an LLM-driven GitHub PR workflow engine using LangGraph, a real-time voice assistant with STT and vector search, and a full-stack job scheduler using FastAPI and Kafka. Professionally contributed to an AI-powered RFP automation platform at NTT Data.\",\n  \"strengths\": [\n    \"Experience with advanced AI orchestration frameworks like LangGraph and CrewAI\",\n    \"Hands-on backend development with Python, FastAPI, and asynchronous event streams via Apache Kafka\",\n    \"Professional experience building enterprise AI-driven solutions at NTT Data\"\n  ],\n  \"concerns\": [\n    \"Limited explicit deployment or cloud infrastructure details beyond Nginx and Cloudflare in skills\"\n  ]\n}"
+}

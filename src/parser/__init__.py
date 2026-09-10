@@ -57,11 +57,8 @@ def file_sha256(path: Path) -> str:
 
 
 def collect_resumes(input_dir) -> Tuple[List[Path], List[Path]]:
-    """Find resumes under `input_dir`, de-duplicated by content hash.
-
-    Returns (files_to_process, duplicates). Two files with identical bytes are
-    the same candidate submitted twice; we process the first and report the rest.
-    """
+    """Returns (files_to_process, duplicates). Identical bytes mean the same
+    candidate submitted twice: process the first, report the rest."""
     input_dir = Path(input_dir)
     candidates = sorted(
         p
@@ -77,7 +74,7 @@ def collect_resumes(input_dir) -> Tuple[List[Path], List[Path]]:
         try:
             digest = file_sha256(path)
         except OSError:
-            # Unreadable at the byte level - let parse_resume report the error.
+            # Let parse_resume report the error rather than swallowing it here.
             unique.append(path)
             continue
 

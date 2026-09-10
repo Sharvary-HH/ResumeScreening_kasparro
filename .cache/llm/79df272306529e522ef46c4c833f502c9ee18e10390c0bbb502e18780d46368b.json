@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 35,\n  \"python_backend\": 26,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 4,\n  \"penalties\": [],\n  \"project_summary\": \"Built multiple production-grade AI platforms including a Component Intelligence Platform with LangChain/LangGraph and MCP integrations, an AI website agent platform with automated crawling, and an AI customer support platform.\",\n  \"strengths\": [\n    \"Extensive hands-on experience building complex AI systems (agents, RAG, MCP, LangGraph)\",\n    \"Strong Python backend skills with FastAPI, async programming, and background workers\",\n    \"Proven track record of shipping end-to-end fullstack AI SaaS products with Docker and CI/CD\"\n  ],\n  \"concerns\": [\n    \"Some project descriptions lack deep technical detail in their listed tech stacks, relying on the experience section for broader context\"\n  ]\n}"
+}

@@ -101,8 +101,7 @@ def main(argv=None) -> int:
 
 
 # --- Terminal report --------------------------------------------------------
-# str.ljust/rjust only - plain ASCII renders in any terminal and pastes cleanly
-# into a README.
+# Plain ASCII so it renders in any terminal and pastes cleanly into a README.
 
 COLUMNS = [
     ("RANK", 4, "rjust"),

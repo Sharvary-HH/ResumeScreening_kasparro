@@ -1,4 +1,0 @@
-{
-  "model": "gemini-flash-lite-latest",
-  "content": "{\n  \"ai_project_depth\": 35,\n  \"python_backend\": 26,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 4,\n  \"penalties\": [],\n  \"project_summary\": \"The candidate built production-grade multi-step AI agent workflows and a Business Requirements Document generation platform at Darwinbox using FastAPI, LangChain, Azure OpenAI, and semantic retrieval.\",\n  \"strengths\": [\n    \"Strong production experience building multi-step AI agents and RAG pipelines with LangChain and Azure OpenAI at Darwinbox\",\n    \"Solid Python backend background utilizing FastAPI, Redis, MongoDB, and PostgreSQL\",\n    \"Real-world exposure to CI/CD, Docker, and AWS/Azure cloud environments\"\n  ],\n  \"concerns\": [\n    \"No dedicated personal side-projects listed, relying entirely on professional experience\"\n  ]\n}"
-}

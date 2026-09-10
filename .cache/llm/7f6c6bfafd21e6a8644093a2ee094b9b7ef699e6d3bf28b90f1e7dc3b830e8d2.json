@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 24,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 3,\n  \"penalties\": [],\n  \"project_summary\": \"Built a multi-agent code review system using LangGraph, LangChain, and FastAPI, alongside professional experience architecting a Python PDF-to-Markdown document processing pipeline using Docling and OCR.\",\n  \"strengths\": [\n    \"Real experience with multi-agent orchestration via LangGraph and supervisor patterns\",\n    \"Practical Python data pipeline experience processing complex PDFs with Docling and LLMs\",\n    \"Hands-on backend development with FastAPI and serverless AWS architectures\"\n  ],\n  \"concerns\": [\n    \"Limited explicit mention of advanced production testing or observability patterns\"\n  ]\n}"
+}

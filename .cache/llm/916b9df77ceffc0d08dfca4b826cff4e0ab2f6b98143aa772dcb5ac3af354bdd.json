@@ -1,4 +1,0 @@
-{
-  "model": "gemini-flash-lite-latest",
-  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 26,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 4,\n  \"penalties\": [],\n  \"project_summary\": \"Built an AI Document Intelligence platform leveraging RAG, FastAPI, Redis, Celery, and pgvector for async document processing and retrieval, alongside a Job Market ETL platform with robust backend architecture.\",\n  \"strengths\": [\n    \"Strong hands-on experience with FastAPI, Celery, and Redis in production-like architectures\",\n    \"Solid RAG and vector database implementation using pgvector\",\n    \"Relevant professional backend and full-stack experience using Python and Java frameworks\"\n  ],\n  \"concerns\": [\n    \"Some short internship tenures, though consistent with student status\"\n  ]\n}"
-}

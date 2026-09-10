@@ -12,11 +12,8 @@ load_dotenv()
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # --- LLM provider -----------------------------------------------------------
-# Any OpenAI-compatible chat-completions endpoint works: the HF router, Gemini's
-# OpenAI compatibility layer, OpenAI itself, or a local vLLM. Switching is a
-# base URL + model name change and nothing else moves.
-#
-# HF_TOKEN is still read as a fallback so an existing .env keeps working.
+# Any OpenAI-compatible chat-completions endpoint works; switching provider is a
+# base URL + model name change. HF_TOKEN is read as a fallback for older .env files.
 LLM_API_KEY = (os.getenv("LLM_API_KEY") or os.getenv("HF_TOKEN") or "").strip()
 LLM_BASE_URL = os.getenv(
     "LLM_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai"
@@ -26,8 +23,8 @@ LLM_MAX_WORKERS = int(os.getenv("LLM_MAX_WORKERS", "4"))
 LLM_TIMEOUT = float(os.getenv("LLM_TIMEOUT", "120"))
 LLM_MAX_TOKENS = int(os.getenv("LLM_MAX_TOKENS", "1500"))
 
-# Backoff for 429 / 5xx, in seconds. A server-supplied Retry-After overrides
-# these; HTTP_MAX_BACKOFF caps how long we will honour such a request.
+# Backoff for 429 / 5xx. A server-supplied Retry-After overrides these, capped
+# by HTTP_MAX_BACKOFF.
 HTTP_RETRY_DELAYS = (2, 4, 8, 16)
 HTTP_MAX_BACKOFF = 45.0
 
@@ -56,15 +53,13 @@ PENALTY_MAX = 15
 
 # --- Parsing ----------------------------------------------------------------
 MIN_TEXT_CHARS = 300
-# Above this ratio of non-alphanumeric characters the "text" is very likely
-# extraction garbage rather than a resume.
+# Above this ratio of non-alphanumerics the "text" is extraction garbage.
 MAX_NON_ALNUM_RATIO = 0.60
 
 SUPPORTED_EXTENSIONS = (".pdf", ".docx", ".txt")
 
 # --- Eligibility keyword sets ----------------------------------------------
-# Python is the hard requirement. These frameworks imply Python even when the
-# word "Python" never appears in the skills list.
+# These frameworks imply Python even when the word never appears in the skills list.
 PYTHON_KEYWORDS = [
     "python",
     "django",
@@ -76,7 +71,7 @@ PYTHON_KEYWORDS = [
     "pytest",
 ]
 
-# Tier 1: LLM / agentic work. This is what the role actually asks for.
+# Tier 1: LLM / agentic work - what the role actually asks for.
 AI_KEYWORDS_STRONG = [
     "llm",
     "rag",
@@ -114,8 +109,7 @@ AI_KEYWORDS_STRONG = [
     "mcp",
 ]
 
-# Tier 2: classical ML / DL. Passes the gate, but flagged as a concern and
-# ranks low because the 40-point AI category rewards agentic depth.
+# Tier 2: classical ML / DL. Passes the gate but is flagged and ranks low.
 AI_KEYWORDS_WEAK = [
     "machine learning",
     "deep learning",
@@ -135,8 +129,7 @@ WEAK_AI_CONCERN = "AI evidence is classical ML, not LLM/agentic"
 REJECT_NO_PYTHON = "No evidence of Python stack"
 REJECT_NO_AI = "No AI/agentic project evidence"
 
-# Curated list used to report matched_skills. Display casing is preserved;
-# matching is case-insensitive.
+# Reported as matched_skills. Display casing preserved; matching is case-insensitive.
 RELEVANT_SKILLS = [
     "Python",
     "FastAPI",
@@ -191,7 +184,7 @@ RELEVANT_SKILLS = [
 ]
 
 # --- GitHub scoring thresholds ----------------------------------------------
-# (max_days_since_last_push, score) - first match wins, evaluated in order.
+# (max_days_since_last_push, score) - first match wins.
 GITHUB_ACTIVITY_THRESHOLDS = [
     (30, 5),
     (90, 4),
@@ -201,7 +194,7 @@ GITHUB_ACTIVITY_THRESHOLDS = [
 GITHUB_ACTIVITY_STALE_SCORE = 1  # older than the last threshold above
 GITHUB_ACTIVITY_NO_EVENTS_SCORE = 0
 
-# (min_relevant_repo_count, score) - first match wins, evaluated in order.
+# (min_relevant_repo_count, score) - first match wins.
 GITHUB_REPO_THRESHOLDS = [
     (5, 5),
     (3, 4),

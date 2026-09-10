@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 15,\n  \"python_backend\": 10,\n  \"cloud_fullstack\": 8,\n  \"engineering_depth\": 3,\n  \"penalties\": [],\n  \"project_summary\": \"Built an AI-powered resume screener using Spring Boot and Spring AI to handle async document parsing and OpenAI integration, alongside a digital wallet platform (Krikapay).\",\n  \"strengths\": [\n    \"Strong backend engineering and system design background with experience in microservices\",\n    \"Practical experience with asynchronous processing and API integration\",\n    \"Demonstrated containerization and full-stack integration skills\"\n  ],\n  \"concerns\": [\n    \"Primary stack is Java/Spring Boot rather than Python, making it a weaker fit for an AI/Python intern role\",\n    \"AI project is built using Spring AI/Java rather than Python-centric AI frameworks (e.g., LangChain, LlamaIndex)\"\n  ]\n}"
+}

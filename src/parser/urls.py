@@ -15,8 +15,7 @@ _TRAILING_JUNK = ".,;:)]}>\"'|*"
 
 def normalize_url(url: str) -> str:
     """Canonical form so the same profile from text and from a link annotation
-    collapses to one entry: lowercase host, no www., no query, no trailing
-    slash, no .git suffix."""
+    collapses to one entry."""
     url = (url or "").strip().strip(_TRAILING_JUNK)
     if not url:
         return ""
@@ -28,8 +27,7 @@ def normalize_url(url: str) -> str:
     if not re.match(r"^https?://", url, flags=re.IGNORECASE):
         url = "https://" + url
 
-    # Split scheme / host / path so only the host gets lowercased - paths on
-    # GitHub are case-sensitive.
+    # Only the host gets lowercased; GitHub paths are case-sensitive.
     match = re.match(r"^(https?)://([^/?#]+)([^?#]*)", url, flags=re.IGNORECASE)
     if not match:
         return url
@@ -48,12 +46,8 @@ def normalize_url(url: str) -> str:
 
 
 def extract_urls_from_text(text: str) -> List[str]:
-    """Regex sweep over the visible text.
-
-    Also joins URLs broken across a line wrap - one resume in the corpus splits
-    a github.com/<user> across two lines, which otherwise yields a truncated
-    username. This is a fallback; link annotations are the reliable source.
-    """
+    """Regex sweep over the visible text. A fallback - link annotations are the
+    reliable source."""
     if not text:
         return []
 
@@ -67,9 +61,9 @@ def extract_urls_from_text(text: str) -> List[str]:
 def _repair_wrapped_urls(text: str) -> str:
     """Re-join URLs broken by a line wrap.
 
-    Pulls up at most one continuation line, and only when the current line ends
-    inside a URL and the next line is a bare URL fragment rather than a domain
-    of its own. Chaining further lines glues unrelated content together.
+    One resume splits a github.com/<user> across two lines, which otherwise
+    yields a truncated username. At most one continuation line is pulled up;
+    chaining further would glue unrelated content together.
     """
     lines = text.split("\n")
     repaired = []
@@ -93,12 +87,9 @@ def _repair_wrapped_urls(text: str) -> str:
 
 
 def merge_urls(*sources: Iterable[str]) -> List[str]:
-    """Normalize, drop empties, and de-duplicate while keeping first-seen order.
-
-    Where one URL is a strict prefix of another from the same host (the wrapped
-    github.com/annishasaravan vs .../annishasaravanan case), keep only the
-    longer one - the truncated form is the broken one.
-    """
+    """Normalize and de-duplicate, keeping first-seen order. Where one URL just
+    extends another's last segment, the longer one wins - the short form is a
+    line-wrap truncation."""
     seen: List[str] = []
     for source in sources:
         for raw in source or []:
@@ -118,17 +109,14 @@ def merge_urls(*sources: Iterable[str]) -> List[str]:
 
 
 def _same_path_depth(shorter: str, longer: str) -> bool:
-    """True when `longer` just extends the last path segment of `shorter`
-    rather than adding a new segment - i.e. a truncated username, not a repo."""
+    """True when `longer` extends the last segment rather than adding a new one -
+    a truncated username, not a repo path."""
     return "/" not in longer[len(shorter) :]
 
 
 def github_username(url: str) -> str:
-    """Return the username for a profile URL, or '' for org/repo paths.
-
-    Only a single path segment counts: github.com/foo -> 'foo', but
-    github.com/foo/bar is a repository, not a profile.
-    """
+    """Username for a profile URL, or '' for repo paths: github.com/foo -> 'foo',
+    but github.com/foo/bar is a repository."""
     match = re.match(
         r"^https?://github\.com/([\w-]+)/?$", normalize_url(url), flags=re.IGNORECASE
     )
@@ -136,14 +124,13 @@ def github_username(url: str) -> str:
         return ""
 
     username = match.group(1)
-    # Reserved paths that are not user profiles.
     if username.lower() in {"login", "signup", "about", "features", "explore", "topics"}:
         return ""
     return username
 
 
 def find_github_url(urls: List[str]) -> str:
-    """First URL in the list that is a GitHub *profile*."""
+    """First URL in the list that is a GitHub profile."""
     for url in urls:
         if github_username(url):
             return normalize_url(url)

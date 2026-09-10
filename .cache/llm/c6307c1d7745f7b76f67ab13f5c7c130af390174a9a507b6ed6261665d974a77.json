@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 24,\n  \"cloud_fullstack\": 10,\n  \"engineering_depth\": 4,\n  \"penalties\": [],\n  \"project_summary\": \"Built an AI healthcare interaction system with LangGraph tool calling and a RAG-based invoice analysis platform featuring embedding caching and semantic retrieval.\",\n  \"strengths\": [\n    \"Experience with advanced orchestration frameworks like LangGraph for tool-calling agents\",\n    \"Practical RAG implementation with Weaviate and embedding caching to optimize performance\",\n    \"Solid Python backend experience using FastAPI and Flask\"\n  ],\n  \"concerns\": [\n    \"Limited cloud and infrastructure deployment details beyond AWS mention in skills\",\n    \"Future dates listed for experience (Jan 2025 - May 2026)\"\n  ]\n}"
+}

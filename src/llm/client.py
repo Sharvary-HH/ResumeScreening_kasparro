@@ -1,11 +1,5 @@
-"""The provider adapter.
-
-Everything provider-specific is behind chat_json(). The HF router speaks the
-OpenAI chat-completions API, so pointing this at OpenAI, Together, or a local
-vLLM is a base-URL and model-name change - nothing above this file moves.
-
-Contract: chat_json() never raises into the pipeline. It returns a validated
-model or None.
+"""Provider adapter. Everything provider-specific lives behind chat_json(),
+which never raises into the pipeline - it returns a validated model or None.
 """
 import hashlib
 import json
@@ -23,23 +17,17 @@ T = TypeVar("T", bound=BaseModel)
 
 
 class LLMUnavailable(RuntimeError):
-    """Raised at startup only - a missing token is a setup problem, not a
-    per-candidate failure."""
+    """Startup only - a missing key is a setup problem, not a per-candidate one."""
 
 
 class _FatalProviderError(RuntimeError):
-    """A bad key, an expired plan, or exhausted credits.
-
-    Retrying these across 50 resumes just wastes wall-clock time and produces 50
-    identical failures, so the first one trips a breaker for the rest of the run.
-    """
+    """Bad key, expired plan, or exhausted credits. Retrying these across 50
+    resumes just produces 50 identical failures, so the first trips a breaker."""
 
 
-# Set by the pipeline from the CLI flags.
 _offline = False
 _use_cache = True
 
-# Tripped by the first fatal provider error; short-circuits every later call.
 _breaker_lock = threading.Lock()
 _breaker_reason: Optional[str] = None
 
@@ -60,13 +48,12 @@ def _trip_breaker(reason: str) -> None:
 
 
 def breaker_reason() -> Optional[str]:
-    """The fatal provider error that stopped the run, if one occurred."""
     with _breaker_lock:
         return _breaker_reason
 
 
 def require_credentials() -> None:
-    """Check up front so we fail with a sentence instead of 50 tracebacks."""
+    """Checked up front so we fail with a sentence instead of 50 tracebacks."""
     if _offline:
         return
     if not config.LLM_API_KEY:
@@ -78,7 +65,7 @@ def require_credentials() -> None:
 
 # --- Cache ------------------------------------------------------------------
 # Keyed on model + messages, so the committed cache replays exactly for anyone
-# running the same corpus with the same model - no token required.
+# running the same corpus with the same model - no key required.
 
 
 def _cache_key(messages: List[Dict[str, str]]) -> str:
@@ -115,12 +102,8 @@ def _cache_write(key: str, content: str) -> None:
 
 
 def _clean_json_text(text: str) -> str:
-    """Get from "whatever the model said" to "something json.loads can eat".
-
-    Provider behaviour varies more than the OpenAI-compatible label suggests,
-    so this handles inline reasoning tags and markdown fences defensively even
-    though the configured model emits neither.
-    """
+    """Handles inline reasoning tags and markdown fences defensively - provider
+    behaviour varies more than the OpenAI-compatible label suggests."""
     text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
     text = re.sub(r"^\s*```(?:json)?\s*", "", text)
     text = re.sub(r"\s*```\s*$", "", text)
@@ -138,12 +121,8 @@ def _clean_json_text(text: str) -> str:
 
 
 def _extract_content(payload: Dict[str, Any]) -> Tuple[str, str]:
-    """Return (content, finish_reason).
-
-    Some providers put chain-of-thought in a separate `reasoning_content` field
-    and leave `content` clean. Read `content` only - concatenating the two is
-    what produces unparseable output.
-    """
+    """Returns (content, finish_reason). Reads `content` only: some providers put
+    reasoning in a separate field, and concatenating the two breaks parsing."""
     if not isinstance(payload, dict):
         return "", ""
 
@@ -212,11 +191,8 @@ class _BadRequest(RuntimeError):
 
 
 def _retry_after(response: "httpx.Response") -> float:
-    """Seconds the server asked us to wait, or 0 if it did not say.
-
-    Free tiers are strict and usually tell you exactly how long to back off -
-    honouring that is far more effective than a fixed doubling schedule.
-    """
+    """Seconds the server asked us to wait, or 0. Free tiers usually say exactly
+    how long, which beats a fixed doubling schedule."""
     header = response.headers.get("retry-after")
     if header:
         try:
@@ -224,14 +200,12 @@ def _retry_after(response: "httpx.Response") -> float:
         except ValueError:
             pass
 
-    # Google returns it in the error body as "Please retry in 13.7s" plus a
-    # structured retryDelay field.
+    # Google returns it in the error body rather than the header.
     match = re.search(r"retry(?:Delay)?\D{0,6}?(\d+(?:\.\d+)?)\s*s", response.text, re.I)
     return float(match.group(1)) if match else 0.0
 
 
 def _error_message(response: "httpx.Response") -> str:
-    """Pull the provider's own message out of an error body when there is one."""
     try:
         payload = response.json()
     except ValueError:
@@ -283,12 +257,11 @@ def chat_json(
     max_retries: int = 2,
     errors: Optional[List[str]] = None,
 ) -> Optional[T]:
-    """Call the model and return a validated `schema_model`, or None.
+    """Returns a validated `schema_model`, or None.
 
-    On a validation failure the error text is fed back to the model, which is
-    far more effective than simply asking again. Pass a list as `errors` to
-    collect the reason for a None return - a failure nobody can diagnose is
-    barely better than a crash.
+    On a validation failure the error text is fed back to the model, which works
+    far better than simply asking again. Pass `errors` to collect the reason for
+    a None return - an undiagnosable failure is barely better than a crash.
     """
 
     def fail(reason: str) -> None:
@@ -354,9 +327,6 @@ def chat_json(
 
 
 def schema_instructions(schema_model: Type[BaseModel]) -> str:
-    """Schema text for the system prompt.
-
-    Belt and braces alongside response_format - the field descriptions and the
-    numeric bounds both carry real information the model needs.
-    """
+    """Schema text for the system prompt - belt and braces alongside
+    response_format, which not every provider honours."""
     return json.dumps(schema_model.model_json_schema(), indent=2)

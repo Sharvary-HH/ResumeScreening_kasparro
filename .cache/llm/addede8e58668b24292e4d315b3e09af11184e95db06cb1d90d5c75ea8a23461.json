@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 26,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 4,\n  \"penalties\": [],\n  \"project_summary\": \"The candidate built an AI Document Intelligence platform using a RAG architecture with FastAPI, Redis, Celery, and pgvector, alongside a Job Market ETL platform with async processing pipelines.\",\n  \"strengths\": [\n    \"Strong practical experience with RAG architectures, vector databases (pgvector), and async task queues (Celery, Redis).\",\n    \"Extensive backend experience with FastAPI, Django REST Framework, and multiple databases (PostgreSQL, MongoDB, MySQL).\",\n    \"Demonstrated deployment experience using Docker and AWS services across multiple professional roles and projects.\"\n  ],\n  \"concerns\": [\n    \"Some short project descriptions rely on generic metric claims without detailing the exact implementation methodology.\"\n  ]\n}"
+}

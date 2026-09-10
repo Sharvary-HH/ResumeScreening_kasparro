@@ -8,12 +8,8 @@ RESUMES = Path(__file__).parent.parent / "resumes"
 
 @pytest.fixture(scope="session")
 def synthetic_docx() -> Path:
-    """Build a small .docx once per session.
-
-    The corpus is PDF-only, so the DOCX path needs a fixture of its own. It is
-    generated rather than committed so the test stays readable - you can see
-    exactly what it contains right here.
-    """
+    """Generated rather than committed so the test stays readable - you can see
+    exactly what it contains right here."""
     import docx
 
     FIXTURES.mkdir(parents=True, exist_ok=True)
@@ -35,7 +31,6 @@ def synthetic_docx() -> Path:
     table.cell(0, 0).text = "Internship"
     table.cell(0, 1).text = "Backend intern at Acme, built Redis-backed job queues."
 
-    # python-docx only writes a hyperlink relationship via the part API.
     document.part.relate_to(
         "https://github.com/priya-nair",
         "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",

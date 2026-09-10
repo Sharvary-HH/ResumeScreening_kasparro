@@ -1,13 +1,11 @@
-"""Self-contained HTML report.
-
-Stdlib only, one file, no CDN links - it has to open from file:// with no
-network. Reads the results dict (i.e. results.json), never pipeline internals,
-so it can be regenerated without re-running the batch:
+"""Self-contained HTML report. Stdlib only, no CDN links - it opens from file://
+with no network. Reads results.json rather than pipeline internals, so it can be
+regenerated standalone:
 
     python -m src.report output/results.json
 
 Everything interpolated goes through html.escape(): resume text is untrusted
-input and a candidate named "<script>" must not execute.
+input, and a candidate named "<script>" must not execute.
 """
 import html
 import json
@@ -54,7 +52,6 @@ ul { margin: 3px 0; padding-left: 20px; }
 .muted { color: #6a6a72; }
 """
 
-# Click a header to sort. Kept deliberately small.
 SCRIPT = """
 document.querySelectorAll('table.sortable th').forEach(function (th, index) {
   th.addEventListener('click', function () {

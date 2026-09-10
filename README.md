@@ -21,6 +21,12 @@ cp .env.example .env
 
 Then open `.env` and fill in the two credentials.
 
+**Resumes are not committed.** `resumes/` ships empty — the candidate files are
+personal data (names, emails, phone numbers) and do not belong in a repository. Drop
+your own `.pdf` / `.docx` files there to run a fresh batch. The committed
+`output/results.json` and `.cache/` are from a real 50-resume run, so the results
+below can be inspected without them.
+
 **Python 3.10 note.** This targets Python 3.10. Pydantic v2 evaluates annotations at
 runtime there, so `str | None` raises `TypeError` — every model in `src/models.py` uses
 `Optional[...]` / `List[...]` from `typing` instead.
@@ -94,7 +100,7 @@ Run the tests:
 pytest -q
 ```
 
-**Expected runtime.** A cold run of all 50 resumes took **275 seconds** (~4.5 min) at the
+**Expected runtime.** A cold run of all 50 resumes took **177 seconds** (~3 min) at the
 default 4 workers. A cached re-run of the same 50 takes **1.1 seconds**.
 
 **Where output lands.** `output/results.json` and `output/results.html`, both written on
@@ -132,18 +138,18 @@ All 50 resumes, GitHub enrichment on:
 TOP 12 CANDIDATES
 RANK  CANDIDATE               SCORE  AI/40  PY/30  CLOUD/15  GH/10  ENG/5
 -------------------------------------------------------------------------
-   1  Prathamesh Patil           95     38     28        14     10      5
-   2  Yash Maini                 93     36     28        14     10      5
+   1  Prathamesh Patil           93     36     28        14     10      5
+   2  Yash Maini                 89     35     26        14     10      4
    3  Jyandeep Baishya           85     35     25        12      9      4
    4  ABHINAV MISHRA             85     32     24        14     10      5
-   5  V Sree Raghu Vardhan       84     35     26        12      7      4
-   6  Vivek Chimnani             84     32     28        15      4      5
-   7  Nevil Jasmin Mehta         84     32     26        12     10      4
-   8  PRAJWAL A S                83     36     26        12      5      4
-   9  ARUNIMA SAHA               80     36     26        14      0      4
-  10  Sumaiya Sultana Shaik      79     30     25        12      9      3
-  11  Aditi Kala                 79     30     24        12     10      3
-  12  Kiran Naregal              78     32     24        12      7      3
+   5  Vivek Chimnani             84     32     28        15      4      5
+   6  Nevil Jasmin Mehta         84     32     26        12     10      4
+   7  Sumaiya Sultana Shaik      83     32     26        12      9      4
+   8  PRAJWAL A S                82     36     26        11      5      4
+   9  Hari Shanker Sharma        81     35     26        12      4      4
+  10  V Sree Raghu Vardhan       81     32     26        12      7      4
+  11  Aditi Kala                 81     32     24        12     10      3
+  12  Gourab Das                 80     32     28        14      1      5
 
 BATCH SUMMARY
   total resumes          50
@@ -155,7 +161,7 @@ BATCH SUMMARY
   github enriched        33
   github failed          2
   llm failures           0
-  run seconds            275.1
+  run seconds            176.8
 
 10 rejected -- 5 both, 3 no AI evidence, 2 no Python evidence
 ```
@@ -355,7 +361,8 @@ There is a test pinning that behaviour.
 A take-home that dies on a missing credential does not get read. Four things guard against
 that:
 
-1. **`.cache/llm/` and `.cache/github/` are committed.** LLM cache keys are content
+1. **`.cache/llm/` and `.cache/github/` are committed** (the resumes themselves are not —
+   see Setup). LLM cache keys are content
    hashes of model + messages, so running the same 50 resumes with the same model is a
    100% cache hit — the whole batch completes with zero API calls and no key. The GitHub
    cache means a reviewer without a token gets real enrichment scores instead of 33
@@ -406,7 +413,7 @@ a candidate named `<script>` must not execute.
 ## Project structure
 
 ```
-├── resumes/                    50 candidate PDFs
+├── resumes/                    drop resumes here (empty; not committed)
 ├── src/
 │   ├── config.py               every threshold, weight, and keyword set
 │   ├── models.py               all Pydantic schemas

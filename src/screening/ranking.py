@@ -33,11 +33,8 @@ def build_breakdown(
 
 
 def _sort_key(result: CandidateResult) -> Tuple:
-    """Descending score, then AI depth, then Python, then name.
-
-    Name last so the order is stable and a re-run produces byte-identical
-    output for the same inputs.
-    """
+    """Descending score, then AI depth, then Python, then name - name last so a
+    re-run produces byte-identical output."""
     breakdown = result.score_breakdown or {}
     return (
         -(result.total_score or 0),
@@ -48,11 +45,8 @@ def _sort_key(result: CandidateResult) -> Tuple:
 
 
 def rank_candidates(results: List[CandidateResult]) -> List[CandidateResult]:
-    """Sort scored candidates and assign ranks starting at 1.
-
-    Eligible-but-unscored candidates (an LLM failure) sort to the bottom and
-    keep rank = None, same as rejected ones.
-    """
+    """Assign ranks from 1. Eligible-but-unscored candidates sort last and keep
+    rank = None, same as rejected ones."""
     scored = [r for r in results if r.eligible and r.total_score is not None]
     unscored = [r for r in results if r.eligible and r.total_score is None]
 

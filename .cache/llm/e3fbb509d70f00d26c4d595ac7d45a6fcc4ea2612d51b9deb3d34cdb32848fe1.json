@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 28,\n  \"python_backend\": 15,\n  \"cloud_fullstack\": 8,\n  \"engineering_depth\": 2,\n  \"penalties\": [],\n  \"project_summary\": \"The candidate built a LangChain/LangGraph conversational timesheet assistant and implemented a production-oriented RAG platform utilizing pgvector and Ollama in a professional role.\",\n  \"strengths\": [\n    \"Professional experience building a RAG platform with vector search and local LLMs (Ollama)\",\n    \"Familiarity with modern orchestration frameworks like LangGraph and LangChain\",\n    \"Experience across backend APIs and full-stack web/mobile development\"\n  ],\n  \"concerns\": [\n    \"The primary production RAG platform was built in Go rather than Python, limiting Python backend AI implementation proof\",\n    \"Python AI projects listed are relatively basic conversational wrappers without extensive architectural depth\"\n  ]\n}"
+}

@@ -1,8 +1,5 @@
-"""DOCX parsing.
-
-The corpus is all PDF, but resumes arrive as .docx often enough that the
-pipeline should handle both. Same trap as PDFs: hyperlink targets are not in the
-paragraph text, they live in the document relationships.
+"""DOCX parsing. Same trap as PDFs: hyperlink targets are not in the paragraph
+text, they live in the document relationships.
 """
 from pathlib import Path
 

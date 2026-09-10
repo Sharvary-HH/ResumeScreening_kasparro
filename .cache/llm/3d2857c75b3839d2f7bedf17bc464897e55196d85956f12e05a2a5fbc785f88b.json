@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 25,\n  \"python_backend\": 22,\n  \"cloud_fullstack\": 8,\n  \"engineering_depth\": 2,\n  \"penalties\": [],\n  \"project_summary\": \"Built a resume screening tool using BERT and Django REST, and a multimodal deepfake detection system with Vision Transformers and FastAPI.\",\n  \"strengths\": [\n    \"Experience with advanced AI architectures like Vision Transformers and BERT embeddings\",\n    \"Solid backend integration using FastAPI and Django REST API with async processing\",\n    \"Practical internship experience in AI/ML and data analytics\"\n  ],\n  \"concerns\": [\n    \"Limited evidence of advanced production-grade system engineering patterns beyond basic async handling\",\n    \"Full-stack deployment and CI/CD details remain high-level without specific toolchain mentions\"\n  ]\n}"
+}

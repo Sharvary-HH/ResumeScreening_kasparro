@@ -1,4 +1,0 @@
-{
-  "model": "gemini-flash-lite-latest",
-  "content": "{\n  \"ai_project_depth\": 32,\n  \"python_backend\": 24,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 3,\n  \"penalties\": [],\n  \"project_summary\": \"Built a multi-agent code review API using LangGraph for specialist agent orchestration, alongside a professional background featuring an end-to-end Python hardware spec parsing pipeline with Docling and serverless AWS architectures.\",\n  \"strengths\": [\n    \"Built a sophisticated multi-agent code review system with LangGraph and FastAPI\",\n    \"Professional AI engineering experience building RAG preprocessing pipelines using Docling and OCR\",\n    \"Practical cloud deployment experience utilizing AWS Lambda and Step Functions\"\n  ],\n  \"concerns\": [\n    \"Limited explicit mention of relational databases like PostgreSQL or caching tools like Redis in production projects\"\n  ]\n}"
-}

@@ -1,6 +1,5 @@
-"""Eligibility is the highest-value thing to test: it decides who gets rejected,
-and it does so without any network call, so every case here is cheap and exact.
-"""
+"""Eligibility decides who gets rejected, and does so without any network call -
+so every case here is cheap and exact."""
 from src import config
 from src.models import CandidateProfile, Experience, Project
 from src.screening.eligibility import check_eligibility

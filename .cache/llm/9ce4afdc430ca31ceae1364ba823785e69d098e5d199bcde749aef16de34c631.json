@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 0,\n  \"python_backend\": 10,\n  \"cloud_fullstack\": 8,\n  \"engineering_depth\": 1,\n  \"penalties\": [],\n  \"project_summary\": \"Built a classical machine learning web application for soil classification using Python, Flask, and Scikit-learn, alongside a full-stack event management portal.\",\n  \"strengths\": [\n    \"Practical full-stack web development experience with React and Node.js/Java\",\n    \"Completed a structured 405-hour Java fullstack training program\",\n    \"Experience building and connecting a machine learning model to a Flask backend\"\n  ],\n  \"concerns\": [\n    \"No AI/LLM experience, agents, RAG, or modern AI tooling present in the profile\",\n    \"Missing GitHub link or code repository evidence\",\n    \"Primary tech stack leans heavily toward Java/Spring Boot rather than Python backend engineering\"\n  ]\n}"
+}

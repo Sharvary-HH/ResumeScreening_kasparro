@@ -1,0 +1,4 @@
+{
+  "model": "gemini-flash-lite-latest",
+  "content": "{\n  \"ai_project_depth\": 35,\n  \"python_backend\": 25,\n  \"cloud_fullstack\": 12,\n  \"engineering_depth\": 4,\n  \"penalties\": [],\n  \"project_summary\": \"Built an Agentic RAG Assistant using LangGraph for multi-agent orchestration with Redis persistence, paired with a hybrid Elasticsearch retrieval pipeline.\",\n  \"strengths\": [\n    \"Deep implementation of LangGraph state graphs and checkpointing with Redis\",\n    \"Solid backend experience utilizing FastAPI and hybrid search with Elasticsearch\",\n    \"Real production experience working with multi-agent systems and event-style mutations\"\n  ],\n  \"concerns\": [\n    \"Limited explicit mentions of testing frameworks or observability tools beyond general LLMOPS in skills\"\n  ]\n}"
+}

@@ -1,8 +1,7 @@
 """Pydantic schemas for everything that crosses a module boundary.
 
-Note on typing: this project targets Python 3.10, where Pydantic v2 evaluates
-annotations at runtime and `str | None` raises TypeError. Use Optional[...] and
-List[...] from typing throughout this file.
+Targets Python 3.10, where Pydantic v2 evaluates annotations at runtime and
+`str | None` raises TypeError - hence Optional[...] / List[...] throughout.
 """
 from typing import Annotated, Any, Dict, List, Optional
 
@@ -20,8 +19,7 @@ def _none_to_empty_list(value):
 
 
 # The extraction prompt tells the model to use null for anything absent, so a
-# null landing in a required string or list is expected output, not a fault.
-# Coercing here is more robust than spending a retry to argue about it.
+# null here is expected output, not a fault. Coercing beats spending a retry.
 Text = Annotated[str, BeforeValidator(_none_to_blank)]
 StrList = Annotated[List[str], BeforeValidator(_none_to_empty_list)]
 
@@ -100,11 +98,8 @@ class Penalty(BaseModel):
 
 
 class LLMScores(BaseModel):
-    """Sub-scores only. Python does the arithmetic - see screening/ranking.py.
-
-    The ge/le bounds are load-bearing: an out-of-range score fails validation,
-    which sends the request back through the retry path with the error text.
-    """
+    """Sub-scores only; Python does the arithmetic. The ge/le bounds are
+    load-bearing - an out-of-range score fails validation and triggers a retry."""
 
     ai_project_depth: int = Field(ge=0, le=config.AI_MAX)
     python_backend: int = Field(ge=0, le=config.PYTHON_MAX)

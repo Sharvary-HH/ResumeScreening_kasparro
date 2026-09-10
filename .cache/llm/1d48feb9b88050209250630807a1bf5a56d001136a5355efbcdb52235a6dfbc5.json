@@ -1,4 +1,0 @@
-{
-  "model": "gemini-flash-lite-latest",
-  "content": "{\n  \"ai_project_depth\": 15,\n  \"python_backend\": 12,\n  \"cloud_fullstack\": 8,\n  \"engineering_depth\": 1,\n  \"penalties\": [],\n  \"project_summary\": \"Built a deep learning image classification model for sheep and goats deployed via Hugging Face, and a cognitive training web application utilizing Flask, React, and MySQL.\",\n  \"strengths\": [\n    \"Practical experience with TensorFlow and Keras for image classification\",\n    \"Full-stack project exposure combining Flask backend with a React frontend\",\n    \"Familiarity with model deployment using Hugging Face and Netlify\"\n  ],\n  \"concerns\": [\n    \"Lack of modern agentic, RAG, or LLM-driven AI workflows\",\n    \"No professional internship or industry experience listed\",\n    \"Minimal evidence of advanced engineering practices like testing, caching, or asynchronous programming\"\n  ]\n}"
-}

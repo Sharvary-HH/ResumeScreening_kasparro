@@ -1,4 +1,0 @@
-{
-  "model": "gemini-flash-lite-latest",
-  "content": "{\n  \"ai_project_depth\": 36,\n  \"python_backend\": 28,\n  \"cloud_fullstack\": 14,\n  \"engineering_depth\": 5,\n  \"penalties\": [],\n  \"project_summary\": \"Architected a real-time production LLM voice agent for enterprise telephony at NetoAI using async Python and LangGraph, and built serverless GenAI detection pipelines on AWS with Terraform.\",\n  \"strengths\": [\n    \"Strong production experience building low-latency real-time LLM agents with async Python and LangGraph\",\n    \"Solid backend and cloud deployment skills demonstrated through serverless AWS architectures and FastAPI services\",\n    \"Clear evidence of optimizing performance, reducing latency, and handling concurrency in production environments\"\n  ],\n  \"concerns\": []\n}"
-}

@@ -1,8 +1,7 @@
 """Hard filtering. Deterministic, pure, and deliberately free of any LLM.
 
-This module must never import from src.llm. The LLM extracts neutral facts; the
-decision about who is eligible is a business rule, and business rules belong in
-code we can unit test without a network call.
+This module must never import from src.llm. Who is eligible is a business rule,
+and business rules belong in code we can unit test without a network call.
 """
 import re
 from typing import List, Tuple
@@ -12,12 +11,8 @@ from src.models import CandidateProfile, EligibilityResult
 
 
 def _build_corpus(profile: CandidateProfile) -> str:
-    """Everything the candidate claims, flattened and lowercased.
-
-    Skills, plus every project's and experience's tech stack and description -
-    Python evidence buried in a project's tech_stack counts just as much as
-    Python in the skills list.
-    """
+    """Everything the candidate claims, flattened and lowercased - so Python
+    buried in a project's tech_stack counts as much as Python in the skills list."""
     parts: List[str] = list(profile.skills)
 
     for project in profile.projects:
@@ -36,11 +31,7 @@ def _build_corpus(profile: CandidateProfile) -> str:
 
 
 def _find_keywords(corpus: str, keywords: List[str]) -> List[str]:
-    """Keywords present in the corpus, matched on word boundaries.
-
-    Word boundaries matter: a substring search for "ai" hits "email" and
-    "available", and "mcp" hits nothing useful without them.
-    """
+    """Word-boundary matched: a substring search for "ai" hits "email"."""
     hits = []
     for keyword in keywords:
         pattern = r"\b" + re.escape(keyword)
@@ -54,11 +45,8 @@ def _find_keywords(corpus: str, keywords: List[str]) -> List[str]:
 
 
 def _match_skills(profile: CandidateProfile) -> List[str]:
-    """Intersection of the candidate's skills with the curated relevant list.
-
-    Reported in the config's display casing so output is consistent regardless
-    of how the resume wrote it ("fastapi", "FastAPI", "Fast API").
-    """
+    """Intersection with the curated list, reported in config's display casing so
+    output is consistent however the resume wrote it."""
     claimed = {skill.strip().lower() for skill in profile.skills if skill.strip()}
     matched = []
     for skill in config.RELEVANT_SKILLS:
@@ -89,7 +77,6 @@ def check_eligibility(profile: CandidateProfile) -> EligibilityResult:
         matched_skills=_match_skills(profile),
         python_evidence=python_evidence,
         ai_evidence=ai_evidence,
-        # Passing on classical ML alone is a real signal, just a weaker one.
-        # Flagged as a concern; the 40-point AI category does the rest.
+        # Classical ML alone still passes; the 40-point AI category demotes it.
         weak_ai_only=bool(ai_evidence) and not strong_ai,
     )

@@ -1,8 +1,5 @@
-"""Batch orchestration.
-
-Every per-candidate stage is wrapped: one unreadable resume, one refused LLM
-call, or one dead GitHub link must never end the batch. Failures are recorded
-on the candidate and the run continues.
+"""Batch orchestration. Every per-candidate stage is wrapped: one unreadable
+resume, one refused LLM call, or one dead GitHub link must never end the batch.
 """
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -23,8 +20,6 @@ from src.screening.ranking import build_breakdown, compute_total, rank_candidate
 
 @dataclass
 class Outcome:
-    """One resume's journey through the pipeline."""
-
     source_file: str
     result: Optional[CandidateResult] = None
     failure: Optional[str] = None
@@ -42,7 +37,6 @@ class PipelineOptions:
 
 
 def _fallback_name(path: Path) -> str:
-    """A readable stand-in when extraction failed or returned no name."""
     return path.stem.replace("_", " ").title()
 
 
@@ -64,9 +58,8 @@ def process_one(path: Path, options: PipelineOptions) -> Outcome:
         errors.append(f"extraction_error: {exc}")
 
     if profile is None:
-        # No profile means no facts to filter on, so this is a failed file
-        # rather than a rejection - we must not claim a candidate is ineligible
-        # when we simply could not read them.
+        # A failed file, not a rejection: never claim someone is ineligible when
+        # the truth is we could not read them.
         outcome.llm_failed = True
         outcome.failure = errors[-1] if errors else "llm_unavailable: no result"
         return outcome
@@ -98,8 +91,8 @@ def process_one(path: Path, options: PipelineOptions) -> Outcome:
         result.errors.append(f"scoring_error: {exc}")
 
     if scores is None:
-        # Eligible but unscored. Kept in the output with rank=null so the
-        # reviewer can see exactly who we failed to score and why.
+        # Eligible but unscored: kept in the output with rank=null so the
+        # reviewer sees who we failed to score, and why.
         outcome.llm_failed = True
         result.project_summary = "Not scored - LLM scoring unavailable."
         return outcome
@@ -128,7 +121,6 @@ def process_one(path: Path, options: PipelineOptions) -> Outcome:
 
 def run(input_dir, options: Optional[PipelineOptions] = None, limit: Optional[int] = None
         ) -> Dict[str, Any]:
-    """Run the full batch and return the results document."""
     options = options or PipelineOptions()
     started = time.time()
 
@@ -150,8 +142,8 @@ def run(input_dir, options: Optional[PipelineOptions] = None, limit: Optional[in
             options.progress(_progress_line(index, total, outcome))
         return outcome
 
-    # A bounded thread pool: these stages are network-bound, and 4 concurrent
-    # requests is enough without tripping provider rate limits.
+    # Network-bound work; 4 concurrent requests is enough without tripping
+    # provider rate limits.
     with ThreadPoolExecutor(max_workers=options.max_workers) as pool:
         outcomes = list(pool.map(task, enumerate(files, start=1)))
 
@@ -198,8 +190,7 @@ def _assemble(
         "run_seconds": round(elapsed, 1),
     }
 
-    # A fatal provider error (bad key, no credit) is a run-level problem, not
-    # 50 separate candidate problems. Say so once, at the top.
+    # A dead credential is one run-level problem, not 50 candidate problems.
     provider_error = llm_client.breaker_reason()
     if provider_error:
         summary["llm_provider_error"] = provider_error
@@ -222,7 +213,6 @@ def _assemble(
 
 
 def _public_fields(result: CandidateResult, *, ranked: bool) -> Dict[str, Any]:
-    """Field names here match the assignment's example output exactly."""
     if not ranked:
         return {
             "candidate_name": result.candidate_name,
